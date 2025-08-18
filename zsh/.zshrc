@@ -23,6 +23,9 @@ bindkey '^Y' autosuggest-accept
 # import ctrl-t(for file)/ctrl-r(for history command)/alt-c(for change directory)
 source <(fzf --zsh)
 export FZF_CTRL_T_OPTS="--preview 'batcat -n --color=always {}'"
+export FZF_ALT_C_OPTS="
+--walker-skip .git,node_modules,target
+--preview 'tree -C {}'"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
