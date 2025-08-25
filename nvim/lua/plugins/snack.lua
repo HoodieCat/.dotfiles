@@ -1,15 +1,15 @@
 local M = {}
 M = {
     "folke/snacks.nvim",
-    dependency = {},
     opts = {
         explorer = {
+            replace_netrw = true,
+        },
+        indent ={
         },
     },
     config = function(_, opts)
     -- set snacks as default explorer
-        vim.g.loaded_netrw = 1
-        vim.g.loaded_netrwPlugin = 1
         require("snacks").setup(opts)
     end,
     keys = {
@@ -35,7 +35,7 @@ M = {
             if root == "" then
                 root = vim.fn.getcwd()
             end
-            Snacks.picker.files({cwd = root}) end , desc =""},
+            Snacks.picker.files({cwd = root}) end , desc ="[S]earch [F]iles Root dir"},
         {"<leader>sp", function() Snacks.picker.projects() end, desc = "[P]rojects"},
         {"<leader>gl", function() Snacks.picker.git_log() end, desc = "[G]it log" },
         --Grep

@@ -19,6 +19,8 @@ opt.scrolloff = 10
 opt.confirm = true
 opt.numberwidth = 4
 
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 -- set '-' as part of word on searching
 vim.opt.iskeyword:append "-" 
 vim.g.mapleader = ' '

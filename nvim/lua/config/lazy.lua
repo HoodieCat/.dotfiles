@@ -32,6 +32,8 @@ spec = {
   require("plugins.gitsigns"),
   require("plugins.bufferline"),
   require("plugins.lualine"),
+  require("plugins.lazydev"),
+  require("plugins.treesitter"),
   },
 
 
