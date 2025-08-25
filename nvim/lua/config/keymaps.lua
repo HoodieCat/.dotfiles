@@ -1,0 +1,18 @@
+local opts = { noremap = true, silent = true}
+local map = vim.keymap.set
+map('n', '<Esc>', '<cmd>nohls<CR>',opts)
+map('n','<leader>d', vim.diagnostic.setloclist, { desc = 'Open [D]iagnositc local list'})
+map('n',']d',function() vim.diagnostic.jump({count =2, float =true}) end, opts )
+map('n','[d',function() vim.diagnostic.jump({count =-1, float = true}) end, opts)
+map('n','<leader>df',function() vim.diagnostic.open_float() end, {desc = '[d]iagnostic [f]loating'})
+map('n','<C-j>','<C-w><C-j>',{ desc= "Move focus to Lower window"})
+map('n','<C-k>','<C-w><C-k>',{ desc= "Move focus to higher window"})
+map('n','<C-h>','<C-w><C-h>',{ desc= "Move focus to left window"})
+map('n','<C-l>','<C-w><C-l>',{ desc= "Move focus to right window"})
+map('n','<S-l>', ':bnect<CR>', opts)
+map('n','<S-h>', ':bprevious<CR>', opts)
+map('n','j','gj',{ desc = '[j] as gj when wrapped'})
+map('n','k','gk',{ desc = '[k] as gk when wrapped'})
+map('n','<leader>l','<cmd>Lazy<CR>',{ desc= '[L]azy.nvim'})
+map('n','<C-s>','<cmd>write<CR>',{desc= 'Write'})
+map('n','<leader>qo','<cmd>copen<CR>',{desc= 'quickfix'})
