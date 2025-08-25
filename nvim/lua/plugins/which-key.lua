@@ -10,6 +10,7 @@ local M =
         {"<leader>h", group = "Git [H]unk"},
         {"<leader>t", group = "[T]oggle"},
         {"<leader>r", group = "[R]ename"},
+        {"<leader>g", group = "[G]it"},
         -- {"<leader>b", group = "[B]uffer"},
       })
     end,

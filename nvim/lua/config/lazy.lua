@@ -29,6 +29,7 @@ spec = {
 	require("plugins.which-key"),
   require("plugins.flash"),
   require("plugins.snack"),
+  require("plugins.gitsigns")
   },
 
 
