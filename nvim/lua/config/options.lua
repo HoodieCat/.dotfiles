@@ -17,7 +17,8 @@ opt.inccommand = 'nosplit'
 opt.cursorline = true
 opt.scrolloff = 10
 opt.confirm = true
-opt.numberwidth = 4
+opt.numberwidth = 2
+opt.wildignorecase = true
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1

@@ -34,6 +34,8 @@ spec = {
   require("plugins.lualine"),
   require("plugins.lazydev"),
   require("plugins.treesitter"),
+  require("plugins.treesitter-textobjects"),
+  require("plugins.mini"),
   },
 
 

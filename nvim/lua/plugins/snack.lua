@@ -7,11 +7,14 @@ M = {
         },
         indent ={
         },
+        dashboard = {},
+        input = {},
     },
     config = function(_, opts)
-    -- set snacks as default explorer
+    -- set snacks as default explorer,already disable netrw
         require("snacks").setup(opts)
     end,
+    lazy = false,
     keys = {
         -- local root = 
         {"<leader>e", function() Snacks.explorer.open() end, desc = "Explorer"},
