@@ -9,8 +9,7 @@ local M =
         {"<leader>s", group = "[S]earch"},
         {"<leader>h", group = "Git [H]unk"},
         {"<leader>t", group = "[T]oggle"},
-        {"<leader>r", group = "[R]ename"},
-        {"<leader>g", group = "[G]it"},
+        -- {"<leader>g", group = "[G]it"},
         -- {"<leader>b", group = "[B]uffer"},
       })
     end,

@@ -22,7 +22,7 @@ M = {
         {"<leader>sg", function() Snacks.picker.grep() end, desc = "[G]rep"},
         {"<leader>s.", function() Snacks.picker.recent() end, desc = "[S]earch Recent files"},
         {"<leader>sh", function() Snacks.picker.help() end , desc = "[s]earch [h]elp"},
-        {"<leader>ss", function() snacks.picker.smart() end, desc ="[S]earch [S]mart"},
+        {"<leader>ss", function() Snacks.picker.smart() end, desc ="[S]earch [S]mart"},
         { "<leader><leader>", function() Snacks.picker.buffers() end, desc = "Bufers" },
         {"<leader>sf", function() Snacks.picker.files() end, desc= "[S]earch [f]ile cwd"},
         {"<leader>sC", function() Snacks.picker.files({ cwd = vim.fn.stdpath("config")}) end, desc = "[S]earch [C]onfig"},

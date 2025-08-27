@@ -36,6 +36,7 @@ spec = {
   require("plugins.treesitter"),
   require("plugins.treesitter-textobjects"),
   require("plugins.mini"),
+  require("plugins.lsp"),
   },
 
 
