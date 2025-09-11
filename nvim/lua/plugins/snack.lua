@@ -1,6 +1,7 @@
 local M = {}
 M = {
     "folke/snacks.nvim",
+    lazy = false,
     opts = {
         explorer = {
             replace_netrw = true,
@@ -14,7 +15,6 @@ M = {
     -- set snacks as default explorer,already disable netrw
         require("snacks").setup(opts)
     end,
-    lazy = false,
     keys = {
         -- local root = 
         {"<leader>e", function() Snacks.explorer.open() end, desc = "Explorer"},
@@ -24,7 +24,10 @@ M = {
         {"<leader>sh", function() Snacks.picker.help() end , desc = "[s]earch [h]elp"},
         {"<leader>ss", function() Snacks.picker.smart() end, desc ="[S]earch [S]mart"},
         { "<leader><leader>", function() Snacks.picker.buffers() end, desc = "Bufers" },
-        {"<leader>sf", function() Snacks.picker.files() end, desc= "[S]earch [f]ile cwd"},
+        --search files under pwd (os filesystem files)
+        {"<leader>sf", function()
+            local opts = {}
+            Snacks.picker.files(opts) end, desc= "[S]earch [f]ile cwd"},
         {"<leader>sC", function() Snacks.picker.files({ cwd = vim.fn.stdpath("config")}) end, desc = "[S]earch [C]onfig"},
         --using .git as root directory sign
         {"<leader>E", function()
@@ -32,13 +35,14 @@ M = {
             if root == "" then
                 root = vim.fn.getcwd()
             end
-            Snacks.picker.explorer({cwd = root}) end , desc =""},
+            Snacks.picker.explorer({cwd = root, ignored = false}) end , desc =""},
+        --search files under root dir at the rule of .gitignore without hidden files
         {"<leader>sF", function()
             local root = vim.fn.system('git rev-parse --show-toplevel'):gsub('\n',"")
             if root == "" then
                 root = vim.fn.getcwd()
             end
-            Snacks.picker.files({cwd = root}) end , desc ="[S]earch [F]iles Root dir"},
+            Snacks.picker.files({cwd = root, ignored = true}) end , desc ="[S]earch [F]iles Root dir"},
         {"<leader>sp", function() Snacks.picker.projects() end, desc = "[P]rojects"},
         {"<leader>gl", function() Snacks.picker.git_log() end, desc = "[G]it log" },
         --Grep

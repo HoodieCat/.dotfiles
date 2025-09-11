@@ -1,4 +1,6 @@
 local M= {}
+-- for windows os
+local powershell = vim.fn.has('win32') and "powershell" or ""
 M={
   "nvim-treesitter/nvim-treesitter",
   version = false, --using the main branch instead of the default master branch :same as branch = main
@@ -17,6 +19,7 @@ M={
     highlight = { enable = true },
     indent = { enable = true },
     ensure_installed = {
+      powershell,
       "bash",
       "c",
       "diff",
@@ -47,7 +50,6 @@ M={
       keymaps = {
         init_selection = "<leader>ti",-- [t]reesitter [i]ncremental selection
         node_incremental = "<leader>ti",
-        scope_incremental = false,
         node_decremental = "<leader>td",-- [t]reesitter [d]ecremental selection
       },
     },

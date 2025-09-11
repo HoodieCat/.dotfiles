@@ -1,4 +1,5 @@
-local M = {} 
+--edit enhance
+local M = {}
 M = {
     "echasnovski/mini.nvim",
     version = false,

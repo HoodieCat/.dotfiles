@@ -1,7 +1,7 @@
 local opts = { noremap = true, silent = true}
 local map = vim.keymap.set
 map('n', '<Esc>', '<cmd>nohls<CR>',opts)
-map('n','<leader>d', vim.diagnostic.setloclist, { desc = 'Open [D]iagnositc local list'})
+map('n','<leader>dl', vim.diagnostic.setloclist, { desc = 'Open [D]iagnositc [l]ocal list'})
 map('n',']d',function() vim.diagnostic.jump({count =2, float =true}) end, opts )
 map('n','[d',function() vim.diagnostic.jump({count =-1, float = true}) end, opts)
 map('n','<leader>df',function() vim.diagnostic.open_float() end, {desc = '[d]iagnostic [f]loating'})
@@ -16,3 +16,4 @@ map('n','k','gk',{ desc = '[k] as gk when wrapped'})
 map('n','<leader>l','<cmd>Lazy<CR>',{ desc= '[L]azy.nvim'})
 map('n','<C-s>','<cmd>write<CR>',{desc= 'Write'})
 map('n','<leader>qo','<cmd>copen<CR>',{desc= 'quickfix'})
+map('n', '<leader>bd', ':bdelete<CR>', { desc = '[B]uffer [D]elete'})

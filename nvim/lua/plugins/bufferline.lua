@@ -1,5 +1,4 @@
-local M ={}
-M = {
+local M = {
   "akinsho/bufferline.nvim",
   opts = function()
     local Offset = require("bufferline.offset")

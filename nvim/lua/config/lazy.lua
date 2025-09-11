@@ -17,29 +17,19 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
 require("lazy").setup({
--- Set Plugin/ as plugins directory
--- {import= "plugins"},
-spec = { 
+spec = {
+  -- colorscheme
 	{"folke/tokyonight.nvim",
 	priority = 1000,
 	config = function()
 	vim.cmd([[colorscheme tokyonight-moon]])
-	end},
+	end
+	},
 	{"NMAC427/guess-indent.nvim", config = true },
-	require("plugins.which-key"),
-  require("plugins.flash"),
-  require("plugins.snack"),
-  require("plugins.gitsigns"),
-  require("plugins.bufferline"),
-  require("plugins.lualine"),
-  require("plugins.lazydev"),
-  require("plugins.treesitter"),
-  require("plugins.treesitter-textobjects"),
-  require("plugins.mini"),
-  require("plugins.lsp"),
+-- Set Plugin/ as plugins directory
+  { import = "plugins"},
   },
-
-
-checker = { enable = true}
-
+checker = {
+    enable = true,
+  }
 })

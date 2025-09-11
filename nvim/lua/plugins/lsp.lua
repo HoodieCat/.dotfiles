@@ -2,7 +2,7 @@ local M ={
   'neovim/nvim-lspconfig',
   dependencies = {
     'mason-org/mason-lspconfig.nvim',
-    {'saghen/blink.cmp', version = "1.*"},
+    'saghen/blink.cmp',
     'mason-org/mason.nvim',
     'j-hui/fidget.nvim',
     },
