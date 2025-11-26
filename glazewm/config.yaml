@@ -1,6 +1,6 @@
 general:
   config_reload_commands: []
-  focus_follows_cursor: false
+  focus_follows_cursor: true
 
   # Whether to switch back and forth between the previously focused
   # workspace when focusing the current workspace.
@@ -119,6 +119,7 @@ window_rules:
     match:
       - window_process: { equals: 'Overwolf'}
       - window_process: { equals: 'SystemSettings'}
+      - window_process: { equals: 'Taskmgr'}
   # utilities floating
   - commands: ['toggle-floating --centered']
     match:
@@ -131,8 +132,7 @@ window_rules:
       - window_process: { equals: 'Mihomo Party'}
       - window_process: { equals: 'explorer'}
 
-
-  - commands: ['toggle-floating' ]
+  - commands: ['toggle-fullscreen' ]
     match:
       - window_process: { equals: 'Taskmgr'}
 
