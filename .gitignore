@@ -5,6 +5,7 @@
 !yazi/
 !README.md
 !lazygit/
+lazygit/*
 !lazygit/config.yml
 !glazewm/
 !.gitignore
