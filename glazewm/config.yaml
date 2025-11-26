@@ -1,4 +1,4 @@
-general:
+GGGgeneral:
   config_reload_commands: []
   focus_follows_cursor: true
 
@@ -35,7 +35,7 @@ window_effects:
     hide_title_bar:
       enabled: false
 
-    # Change the corner style of the window's frame.
+    # Change the corner style of the windowG's frame.
     # ** Exclusive to Windows 11 due to API limitations.
     corner_style:
       enabled: false
@@ -259,7 +259,7 @@ keybindings:
 
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ['move --workspace 1', 'focus --workspace 1']
-    bindings: ['alt+shift+12']
+    bindings: ['alt+shift+1112']
   - commands: ['move --workspace 2', 'focus --workspace 2']
     bindings: ['alt+shift+2']
   - commands: ['move --workspace 3', 'focus --workspace 3']
