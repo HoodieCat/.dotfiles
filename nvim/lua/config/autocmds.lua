@@ -24,3 +24,6 @@ aucmd({'BufReadPost'},{
 		end
 	end
 })
+
+-- aucmd({'BufWinLeave'}, { pattern = {'*.cpp','*.lua'}, command = 'mkview'})
+-- aucmd({'BufWinEnter'}, { pattern = {'*.cpp','*.lua'}, command = 'loadview'})

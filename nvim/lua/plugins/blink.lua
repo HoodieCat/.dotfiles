@@ -1,16 +1,12 @@
 local M ={
   'saghen/blink.cmp',
   version = '1.*',
-  dependencies  = {
-    -- snippet Engine
-    'L3MON4D3/LuaSnip',
-    version = '2.*',
-    build = (function()
-      if vim.fn.has "win32" ==1 or vim.fn.executable 'make' ==0 then
-	return
-      end
-      return 'make install_jsregexp'
-    end)(),
-  }
+  dependencies  = { 'rafamadriz/friendly-snippets' },
+  version = '1.*',
+  opts = {
+    keymap = { preset = 'default'},
+    appearance = { nerd_font_variant = 'mono'},
+    sources = { 'lsp', 'path', 'snippets', 'buffer' },
+  },
 }
 return M

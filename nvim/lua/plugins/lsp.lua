@@ -6,7 +6,7 @@ local M ={
     'mason-org/mason.nvim',
     'j-hui/fidget.nvim',
     },
-  config = function()
+  config = function(_, opts)
 	   vim.api.nvim_create_autocmd('LspAttach', {
 	     group = vim.api.nvim_create_augroup('Lsp-Attach',{ clear = true}),
          callback = function(arg)
@@ -58,7 +58,7 @@ local M ={
               vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { bufner = arg.buf})
               end, '[I]nlay [H]ints')
             end
-            if client and client.supports_method(vim.lsp.protocol.textDocument_switchHeaderSource) then
+            if client and client_supports_method(client, vim.lsp.protocol.textDocument_switchHeaderSource, arg.buf) then
               map('<M-o>', '<cmd>ClangdSwitchSourceHeader<CR>', 'Swithc Source/Header')
             end
          end
@@ -79,7 +79,8 @@ local M ={
      }
      for server_name, server_config in pairs(servers) do
       server_config.capabilities = vim.tbl_deep_extend('force', lsp_capabilities, capabilities ,server_config.capabilities or {})
-      require('lspconfig')[server_name].setup(server_config)
+      -- require('lspconfig')[server_name].setup(server_config)
+      vim.lsp.enable(server_name)
      end
      require("mason").setup({
       registry = {

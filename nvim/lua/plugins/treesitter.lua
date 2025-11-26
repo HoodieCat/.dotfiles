@@ -18,8 +18,9 @@ M={
   opts = {
     highlight = { enable = true },
     indent = { enable = true },
+    fold = { enable = true },
     ensure_installed = {
-      powershell,
+      "powershell",
       "bash",
       "c",
       "diff",

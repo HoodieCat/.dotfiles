@@ -24,7 +24,7 @@ M = {
                 if vim.wo.diff then
                     vim.fn.cmd("normal!  ]c")
                 else
-                    gitsigns.nav_hunk("next")
+                    gitsigns.nav_hunk({"next"})
                 end 
             end, {desc = "Jump to next [G]it [C]hange"})
 
@@ -32,7 +32,7 @@ M = {
                 if vim.wo.diff then
                     vim.fn.cmd("normal!  [c")
                 else
-                    gitsigns.nav_hunk("prev")
+                    gitsigns.nav_hunk({"prev"})
                 end 
             end, {desc = "Jump to previous [G]it [C]hange"})
 
