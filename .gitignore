@@ -9,3 +9,4 @@ lazygit/*
 !lazygit/config.yml
 !glazewm/
 !.gitignore
+!pwsh.ps1

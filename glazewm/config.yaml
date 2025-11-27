@@ -78,9 +78,11 @@ window_behavior:
 
 workspaces:
   - name: '1'
+    display_name: "Work"
   - name: '2'
   - name: '3'
   - name: '4'
+    display_name: "entertainment"
   - name: '5'
   - name: '6'
   - name: '7'
@@ -91,8 +93,8 @@ window_rules:
   - commands: ['ignore']
     match:
       - window_process: { equals: 'yasb' }
-      # Ignores picture-in-picture windows for browsers.
-      - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
+      # picture in picture on explorer
+      - window_title: { regex: '[Pp]icture.in.[Pp]icture|画中画' }
         window_class: { regex: 'Chrome_WidgetWin_1|MozillaDialogClass' }
 
       # Ignore rules for various 3rd-party apps.
