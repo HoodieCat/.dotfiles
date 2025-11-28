@@ -10,3 +10,4 @@ lazygit/*
 !glazewm/
 !.gitignore
 !pwsh.ps1
+!yasb/

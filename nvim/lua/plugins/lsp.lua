@@ -76,6 +76,7 @@ local M ={
           },
         },
       },
+      ts_ls = {},
      }
      for server_name, server_config in pairs(servers) do
       server_config.capabilities = vim.tbl_deep_extend('force', lsp_capabilities, capabilities ,server_config.capabilities or {})

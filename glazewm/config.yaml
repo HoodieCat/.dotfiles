@@ -78,11 +78,9 @@ window_behavior:
 
 workspaces:
   - name: '1'
-    display_name: "Work"
   - name: '2'
   - name: '3'
   - name: '4'
-    display_name: "entertainment"
   - name: '5'
   - name: '6'
   - name: '7'
@@ -119,8 +117,8 @@ window_rules:
   - commands: ['move --workspace 4', 'focus --workspace 4', 'toggle-floating']
     match:
       - window_process: { equals: 'Overwolf'}
-      - window_process: { equals: 'SystemSettings'}
-      - window_process: { equals: 'Taskmgr'}
+      # - window_process: { equals: 'SystemSettings'}
+      # - window_process: { equals: 'Taskmgr'}
   # utilities floating
   - commands: ['toggle-floating --centered']
     match:
@@ -132,10 +130,6 @@ window_rules:
     match:
       - window_process: { equals: 'Mihomo Party'}
       - window_process: { equals: 'explorer'}
-
-  - commands: ['toggle-fullscreen' ]
-    match:
-      - window_process: { equals: 'Taskmgr'}
 
 binding_modes:
   - name: 'resize'
