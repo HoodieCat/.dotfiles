@@ -2138,3 +2138,1291 @@ Exception: Weather response error 502: UnknownServerError 499.
 2025-11-28 20:14:09,309 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
 2025-11-28 20:14:09,309 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
 2025-11-28 20:21:59,819 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 20:21:59.819505
+2025-11-28 21:25:49,241 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:25:49,243 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:25:49,246 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:25:49,397 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:25:49,427 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:28:22,793 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:28:22,794 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:28:22,795 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:28:22,836 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:28:22,838 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:28:30,899 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:28:30,900 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:28:30,901 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:28:30,939 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:28:30,940 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:29:22,643 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:29:22,644 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:29:22,645 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:29:22,683 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:29:22,683 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:29:35,262 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:29:35,263 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:29:35,263 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:29:35,302 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:29:35,303 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:30:58,568 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:30:58,569 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:30:58,569 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:30:58,610 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:30:58,611 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:33:36,225 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:33:36,227 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:33:36,227 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:33:36,266 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:33:36,267 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:37:38,600 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:37:38,600 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:37:38,601 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:37:38,641 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:37:38,642 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:57:17,659 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:57:17,660 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:57:17,660 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:57:17,702 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:57:17,703 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:58:08,229 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:58:08,230 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:58:08,230 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:58:08,270 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:58:08,271 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:58:48,768 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:58:48,769 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:58:48,770 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:58:48,811 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:58:48,812 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:59:01,665 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:59:01,666 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:59:01,666 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:59:01,707 [ERROR] [MainThread] [root/config.py:115]: The config file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains validation errors. Please fix:
+glazewm_workspaces:
+- unknown field
+
+2025-11-28 21:59:01,707 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 21:59:23,650 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:59:23,651 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:59:23,652 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:59:24,345 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'apps
+2025-11-28 21:59:24,820 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 21:59:24,880 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 21:59:25,311 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 21:59:25,341 [WARNING] [MainThread] [root/widget_builder.py:37]: Ignoring construction of invalid widget 'apps'
+2025-11-28 21:59:25,547 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 21:59:25,548 [ERROR] [MainThread] [root/widget_builder.py:86]: Failed to add undefined widget(s)  - The widget "apps" is undefined.
+2025-11-28 21:59:25,648 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 21:59:25,698 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 21:59:25,699 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 21:59:25,700 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 21:59:26,277 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 21:59:26.277482
+2025-11-28 21:59:40,785 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 203, column 5
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 229, column 9
+2025-11-28 21:59:53,791 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 21:59:53,904 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 21:59:53,904 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 21:59:53,910 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 21:59:54,169 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 21:59:54,171 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 21:59:54,186 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 21:59:54,197 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 21:59:54,200 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 21:59:54,568 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 21:59:54,570 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 21:59:54,571 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 21:59:55,547 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 21:59:55,632 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 21:59:55,945 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 21:59:56,185 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 21:59:56,186 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 21:59:56,255 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 21:59:56,255 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 21:59:56,258 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 21:59:56,479 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 21:59:56.479500
+2025-11-28 22:00:28,845 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:00:28,955 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:00:28,955 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:00:28,960 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:00:29,218 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:00:29,220 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:00:29,237 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:00:29,251 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:00:29,254 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:00:29,609 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:00:29,610 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:00:29,610 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:00:30,582 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:00:30,665 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:00:30,977 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:00:31,230 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:00:31,230 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:00:31,297 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:00:31,297 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:00:31,298 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:00:31,505 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:00:31.505568
+2025-11-28 22:00:49,325 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:00:49,439 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:00:49,439 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:00:49,444 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:00:49,705 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:00:49,707 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:00:49,730 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:00:49,735 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:00:49,740 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:00:50,062 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:00:50,063 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:00:50,063 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:00:51,128 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:00:51,214 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:00:51,573 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:00:51,864 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:00:51,864 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:00:51,926 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:00:51,926 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:00:51,927 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:00:52,120 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:00:52.120577
+2025-11-28 22:03:18,222 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:03:24,838 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:03:28,585 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:03:28,699 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:03:28,700 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:03:28,706 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:03:29,020 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:03:29,022 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:03:29,035 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:03:29,046 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:03:29,049 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:03:29,351 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:03:29,352 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:03:29,353 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:03:30,327 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:03:30,416 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:03:30,715 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:03:30,965 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:03:30,966 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:03:31,029 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:03:31,029 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:03:31,030 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:03:31,487 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:03:31.487007
+2025-11-28 22:03:33,465 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:03:37,572 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:03:49,548 [INFO] [MainThread] [root/controller.py:15]: Reloading Application from tray...
+2025-11-28 22:03:49,654 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:03:49,654 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:03:49,955 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:03:49,957 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:03:49,980 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:03:49,982 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:03:49,986 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:03:50,312 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:03:50,313 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:03:50,314 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:03:50,351 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:03:50,352 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 22:04:01,607 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:04:01,608 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:04:01,608 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:04:02,341 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:04:02,395 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:04:02,712 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:04:03,013 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:04:03,014 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:04:03,074 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:04:03,074 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:04:03,075 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:04:03,287 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:04:03.287746
+2025-11-28 22:04:40,518 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:04:40,631 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:04:40,631 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:04:40,637 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:04:40,959 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:04:40,960 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:04:40,974 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:04:40,974 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:04:40,977 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:04:41,254 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:04:41,256 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:04:41,256 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:04:41,491 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'komorebi_active_layout
+2025-11-28 22:04:42,275 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:04:42,364 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:04:42,734 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:04:42,749 [WARNING] [MainThread] [root/widget_builder.py:37]: Ignoring construction of invalid widget 'komorebi_active_layout'
+2025-11-28 22:04:42,998 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:04:42,998 [ERROR] [MainThread] [root/widget_builder.py:86]: Failed to add undefined widget(s)  - The widget "komorebi_active_layout" is undefined.
+2025-11-28 22:04:43,070 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:04:43,114 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:04:43,114 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:04:43,115 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:04:43,351 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:04:43.351068
+2025-11-28 22:05:04,248 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:05:05,537 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:05:14,628 [INFO] [MainThread] [root/controller.py:15]: Reloading Application from tray...
+2025-11-28 22:05:14,733 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:05:14,733 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:05:15,074 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:05:15,075 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:05:15,088 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:05:15,089 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:05:15,093 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:05:15,383 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:05:15,384 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:05:15,385 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:05:15,423 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 38, column 13
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 43, column 9
+2025-11-28 22:05:15,424 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-11-28 22:05:39,335 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:05:39,335 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:05:39,336 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:05:39,475 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'glazewm_active_layout
+2025-11-28 22:05:40,054 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:05:40,109 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:05:40,443 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:05:40,462 [WARNING] [MainThread] [root/widget_builder.py:37]: Ignoring construction of invalid widget 'glazewm_active_layout'
+2025-11-28 22:05:40,736 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:05:40,737 [ERROR] [MainThread] [root/widget_builder.py:86]: Failed to add undefined widget(s)  - The widget "glazewm_active_layout" is undefined.
+2025-11-28 22:05:40,809 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:05:40,851 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:05:40,851 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:05:40,853 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:05:41,100 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:05:41.100844
+2025-11-28 22:09:12,629 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:09:12,737 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:09:12,737 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:09:12,744 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:09:13,062 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:09:13,063 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:09:13,077 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:09:13,083 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:09:13,085 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:09:13,399 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:09:13,400 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:09:13,401 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:09:14,426 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:09:14,506 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:09:14,865 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:09:15,123 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:09:15,124 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:09:15,227 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:09:15,228 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:09:15,229 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:09:15,656 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:09:15.656745
+2025-11-28 22:11:50,150 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:11:50,257 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:11:50,257 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:11:50,263 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:11:50,644 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:11:50,646 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:11:50,663 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:11:50,668 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:11:50,672 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:11:50,955 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:11:50,957 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:11:50,958 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:11:51,980 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:11:52,067 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:11:52,500 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:11:52,779 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:11:52,780 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:11:52,868 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:11:52,868 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:11:52,869 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:11:53,095 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:11:53.095571
+2025-11-28 22:12:23,664 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:12:23,769 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:12:23,769 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:12:23,775 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:12:24,164 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:12:24,165 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:12:24,189 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:12:24,194 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:12:24,198 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:12:24,456 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:12:24,458 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:12:24,459 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:12:25,519 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:12:25,605 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:12:26,003 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:12:26,289 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:12:26,290 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:12:26,362 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:12:26,362 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:12:26,363 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:12:26,782 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:12:26.782873
+2025-11-28 22:13:10,762 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:13:10,874 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:13:10,874 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:13:10,880 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:13:11,254 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:13:11,255 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:13:11,277 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:13:11,280 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:13:11,284 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:13:11,533 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:13:11,535 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:13:11,535 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:13:12,595 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:13:12,686 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:13:13,097 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:13:13,366 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:13:13,367 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:13:13,458 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:13:13,458 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:13:13,459 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:13:13,705 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:13:13.704949
+2025-11-28 22:13:19,926 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:13:20,040 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:13:20,040 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:13:20,047 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:13:20,421 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:13:20,422 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:13:20,449 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:13:20,459 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:13:20,462 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:13:20,717 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:13:20,718 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:13:20,718 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:13:21,714 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:13:21,799 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:13:22,194 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:13:22,508 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:13:22,509 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:13:22,570 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:13:22,570 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:13:22,571 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:13:22,778 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:13:22.778822
+2025-11-28 22:14:11,907 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:14:12,019 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:14:12,019 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:14:12,025 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:14:12,357 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:14:12,358 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:14:12,373 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:14:12,379 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:14:12,382 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:14:12,758 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:14:12,759 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:14:12,760 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:14:13,776 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:14:13,860 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:14:14,272 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:14:14,560 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:14:14,561 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:14:14,632 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:14:14,632 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:14:14,633 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:14:14,842 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:14:14.842888
+2025-11-28 22:18:06,116 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:18:06,221 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:18:06,222 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:18:06,229 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:18:06,596 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:18:06,597 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:18:06,611 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:18:06,617 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:18:06,620 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:18:06,909 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:18:06,911 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:18:06,912 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:18:07,991 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:18:08,081 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:18:08,472 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:18:08,810 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:18:08,811 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:18:08,882 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:18:08,882 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:18:08,884 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:18:09,278 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:18:09.278411
+2025-11-28 22:28:08,376 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:28:08.376337
+2025-11-28 22:29:27,230 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:29:27,331 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:29:27,331 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:29:27,337 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:29:27,708 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:29:27,708 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:29:27,732 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:29:27,747 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:29:27,754 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:29:28,058 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:29:28,060 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:29:28,061 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:29:29,169 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:29:29,255 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:29:29,642 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:29:29,976 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:29:29,977 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:29:30,045 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:29:30,045 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:29:30,047 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:29:31,287 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:29:31.287008
+2025-11-28 22:30:10,485 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:30:10,600 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:30:10,600 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:30:10,606 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:30:10,860 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:30:10,861 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:30:10,874 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:30:10,880 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:30:10,884 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:30:11,266 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:30:11,268 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:30:11,268 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:30:12,308 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:30:12,394 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:30:12,846 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:30:13,189 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:30:13,190 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:30:13,252 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:30:13,253 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:30:13,254 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:30:13,442 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:30:13.442683
+2025-11-28 22:30:30,670 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:30:30,772 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:30:30,772 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:30:30,779 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:30:31,135 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:30:31,136 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:30:31,448 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:30:31,449 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:30:31,450 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:30:31,450 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-11-28 22:30:39,711 [INFO] [MainThread] [root/main.py:71]: Previous instance exited, continuing startup.
+2025-11-28 22:30:40,556 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:30:40,625 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:30:41,060 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:30:41,348 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:30:41,348 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:30:41,435 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:30:41,435 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:30:41,436 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:30:41,673 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:30:41.672979
+2025-11-28 22:32:24,863 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:32:24,977 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:32:24,978 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:32:24,984 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:32:25,343 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:32:25,344 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:32:25,358 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:32:25,368 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:32:25,371 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:32:25,666 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:32:25,668 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:32:25,668 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:32:26,701 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:32:26,780 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:32:27,223 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:32:27,568 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:32:27,568 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:32:27,630 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:32:27,630 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:32:27,631 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:32:28,102 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:32:28.102163
+2025-11-28 22:32:45,822 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 22:32:45,927 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 22:32:45,927 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 22:32:45,933 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 22:32:46,176 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 22:32:46,177 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 22:32:46,191 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 22:32:46,194 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 22:32:46,196 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 22:32:46,584 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 22:32:46,586 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 22:32:46,586 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 22:32:47,640 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 22:32:47,724 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 22:32:48,150 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 22:32:48,515 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 22:32:48,516 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 22:32:48,579 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 22:32:48,579 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 22:32:48,581 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 22:32:48,829 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:32:48.829457
+2025-11-28 22:42:48,334 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:42:48.334321
+2025-11-28 22:52:48,335 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 22:52:48.335708
+2025-11-28 23:01:07,008 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:01:07,119 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:01:07,119 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:01:07,125 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:01:07,474 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:01:07,474 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:01:07,487 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:01:07,495 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:01:07,501 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:01:07,867 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:01:07,869 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:01:07,870 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:01:08,951 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:01:09,039 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:01:09,481 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:01:09,870 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:01:09,871 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:01:09,935 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:01:09,935 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:01:09,938 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:01:10,404 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:01:10.403988
+2025-11-28 23:04:19,280 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:04:19,394 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:04:19,394 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:04:19,400 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:04:19,823 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:04:19,824 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:04:19,843 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:04:19,848 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:04:19,853 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:04:20,138 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:04:20,141 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:04:20,143 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:04:21,246 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:04:21,337 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:04:21,817 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:04:22,184 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:04:22,184 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:04:22,248 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:04:22,248 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:04:22,250 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:04:22,643 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:04:22.643296
+2025-11-28 23:10:09,500 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:10:09,605 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:10:09,605 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:10:09,613 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:10:10,052 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:10:10,054 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:10:10,079 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:10:10,086 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:10:10,094 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:10:10,363 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:10:10,365 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:10:10,365 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:10:11,465 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:10:11,554 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:10:12,047 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:10:12,600 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:10:12,601 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:10:12,663 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:10:12,663 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:10:12,664 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:10:13,087 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:10:13.087890
+2025-11-28 23:10:39,185 [ERROR] [MainThread] [root/bar_manager.py:56]: Error loading config: while scanning a simple key
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 206, column 5
+could not find expected ':'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 208, column 3
+2025-11-28 23:11:06,648 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:11:06,759 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:11:06,759 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:11:06,766 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:11:07,198 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:11:07,200 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:11:07,230 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:11:07,242 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:11:07,248 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:11:07,555 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:11:07,556 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:11:07,556 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:11:08,650 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:11:08,741 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:11:09,209 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:11:09,703 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:11:09,704 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:11:09,764 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:11:09,764 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:11:09,765 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:11:09,986 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:11:09.986252
+2025-11-28 23:11:38,930 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:11:39,036 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:11:39,036 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:11:39,043 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:11:39,367 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:11:39,369 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:11:39,388 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:11:39,394 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:11:39,398 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:11:39,774 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:11:39,776 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:11:39,777 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:11:40,863 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:11:40,948 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:11:41,444 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:11:41,848 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:11:41,848 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:11:41,912 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:11:41,913 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:11:41,914 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:11:42,183 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:11:42.183926
+2025-11-28 23:11:54,111 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:11:54,220 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:11:54,221 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:11:54,228 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:11:54,633 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:11:54,634 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:11:54,655 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:11:54,659 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:11:54,662 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:11:54,946 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:11:54,948 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:11:54,949 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:11:56,058 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:11:56,145 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:11:56,693 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:11:57,102 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:11:57,102 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:11:57,165 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:11:57,165 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:11:57,166 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:11:57,432 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:11:57.432153
+2025-11-28 23:12:49,259 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:12:49,374 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:12:49,374 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:12:49,380 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:12:49,858 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:12:49,860 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:12:49,884 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:12:49,885 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:12:49,890 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:12:50,168 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:12:50,170 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:12:50,171 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:12:51,226 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:12:51,311 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:12:51,781 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:12:52,240 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:12:52,241 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:12:52,298 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:12:52,298 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:12:52,299 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:12:52,515 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:12:52.515042
+2025-11-28 23:13:43,823 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:13:43,927 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:13:43,927 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:13:43,933 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:13:44,299 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:13:44,301 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:13:44,324 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:13:44,333 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:13:44,339 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:13:44,700 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:13:44,702 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:13:44,703 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:13:45,726 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:13:45,813 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:13:46,253 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:13:46,743 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:13:46,744 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:13:46,803 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:13:46,804 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:13:46,805 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:13:47,229 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:13:47.229183
+2025-11-28 23:13:51,151 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:13:51,258 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:13:51,258 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:13:51,265 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:13:51,568 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:13:51,569 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:13:51,585 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:13:51,588 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:13:51,592 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:13:51,999 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:13:52,000 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:13:52,001 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:13:53,050 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:13:53,134 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:13:53,615 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:13:54,045 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:13:54,046 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:13:54,110 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:13:54,110 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:13:54,111 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:13:54,328 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:13:54.328462
+2025-11-28 23:15:32,067 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:15:32,175 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:15:32,176 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:15:32,182 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:15:32,550 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:15:32,551 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:15:32,574 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:15:32,585 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:15:32,588 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:15:32,972 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:15:32,973 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:15:32,974 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:15:34,066 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:15:34,151 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:15:34,646 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:15:35,025 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:15:35,026 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:15:35,087 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:15:35,087 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:15:35,088 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:15:35,335 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:15:35.335599
+2025-11-28 23:17:18,702 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:17:18,814 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:17:18,815 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:17:18,821 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:17:19,239 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:17:19,243 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:17:19,264 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:17:19,272 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:17:19,279 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:17:19,587 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:17:19,589 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:17:19,589 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:17:20,671 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:17:20,766 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:17:21,245 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:17:21,670 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:17:21,672 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:17:21,745 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:17:21,745 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:17:21,746 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:17:22,165 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:17:22.164985
+2025-11-28 23:27:20,980 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:27:20.980172
+2025-11-28 23:37:21,034 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:37:21.034016
+2025-11-28 23:42:27,674 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:42:27,781 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:42:27,781 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:42:27,789 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:42:28,146 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:42:28,147 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:42:28,161 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:42:28,170 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:42:28,173 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:42:28,473 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:42:28,474 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:42:28,475 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:42:29,670 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:42:29,760 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:42:30,377 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:42:30,879 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:42:30,880 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:42:30,938 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:42:30,938 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:42:30,940 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:42:31,357 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:42:31.357743
+2025-11-28 23:42:50,609 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:42:50,721 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:42:50,721 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:42:50,727 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:42:51,094 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:42:51,095 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:42:51,122 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:42:51,127 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:42:51,130 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:42:51,400 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:42:51,402 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:42:51,402 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:42:52,514 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:42:52,597 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:42:53,142 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:42:53,536 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:42:53,537 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:42:53,600 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:42:53,600 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:42:53,602 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:42:53,847 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:42:53.847523
+2025-11-28 23:45:02,331 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:45:02,441 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:45:02,441 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:45:02,447 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:45:02,871 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:45:02,872 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:45:02,889 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:45:02,895 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:45:02,901 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:45:03,162 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:45:03,163 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:45:03,163 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:45:04,179 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:45:04,267 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:45:04,748 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:45:05,174 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:45:05,174 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:45:05,238 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:45:05,238 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:45:05,240 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:45:05,566 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:45:05.566351
+2025-11-28 23:45:14,583 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:45:14,695 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:45:14,696 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:45:14,702 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:45:15,019 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:45:15,020 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:45:15,042 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:45:15,051 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:45:15,054 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:45:15,364 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:45:15,365 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:45:15,366 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:45:16,501 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:45:16,586 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:45:17,077 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:45:17,433 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:45:17,434 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:45:17,542 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:45:17,542 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:45:17,543 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:45:17,785 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:45:17.785646
+2025-11-28 23:45:29,538 [INFO] [MainThread] [root/controller.py:15]: Reloading Application from tray...
+2025-11-28 23:45:29,650 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:45:29,651 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:45:30,113 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:45:30,114 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:45:30,144 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:45:30,145 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:45:30,153 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:45:30,397 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:45:30,399 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:45:30,399 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:45:31,541 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:45:31,631 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:45:32,138 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:45:32,599 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:45:32,600 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:45:32,663 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:45:32,664 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:45:32,665 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:45:38,069 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:45:38.069603
+2025-11-28 23:55:31,928 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:55:31.927950
+2025-11-28 23:57:52,363 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\lijie\AppData\Local\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 88, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 91, column 23
+2025-11-28 23:58:57,055 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-28 23:58:57,165 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-28 23:58:57,165 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-28 23:58:57,171 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-28 23:58:57,571 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-28 23:58:57,573 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-28 23:58:57,603 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-28 23:58:57,617 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-28 23:58:57,622 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-28 23:58:57,879 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-28 23:58:57,882 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-28 23:58:57,882 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-28 23:58:59,012 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-28 23:58:59,096 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-28 23:58:59,539 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-28 23:59:00,029 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-28 23:59:00,030 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-28 23:59:00,089 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-28 23:59:00,089 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-28 23:59:00,091 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-28 23:59:00,928 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-28 23:59:00.928512
+2025-11-29 00:00:06,205 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:00:06,313 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:00:06,313 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:00:06,320 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:00:06,740 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:00:06,741 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:00:06,761 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:00:06,766 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:00:06,771 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:00:07,025 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:00:07,026 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:00:07,027 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:00:08,108 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:00:08,194 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:00:08,616 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:00:09,095 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:00:09,096 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:00:09,158 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:00:09,158 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:00:09,160 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:00:09,704 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:00:09.704481
+2025-11-29 00:01:25,474 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:01:25,577 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:01:25,577 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:01:25,583 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:01:25,884 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:01:25,884 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:01:25,896 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:01:25,904 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:01:25,908 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:01:26,230 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:01:26,232 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:01:26,232 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:01:27,321 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:01:27,395 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:01:27,888 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:01:28,301 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:01:28,302 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:01:28,379 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:01:28,380 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:01:28,382 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:01:28,661 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:01:28.661256
+2025-11-29 00:02:03,442 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:02:03,554 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:02:03,554 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:02:03,561 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:02:03,953 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:02:03,954 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:02:03,979 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:02:03,993 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:02:03,997 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:02:04,231 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:02:04,233 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:02:04,233 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:02:05,325 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:02:05,407 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:02:05,929 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:02:06,351 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:02:06,352 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:02:06,417 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:02:06,418 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:02:06,419 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:02:06,655 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:02:06.655516
+2025-11-29 00:02:16,638 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:02:16,744 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:02:16,744 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:02:16,751 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:02:17,075 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:02:17,076 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:02:17,107 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:02:17,118 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:02:17,123 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:02:17,452 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:02:17,453 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:02:17,454 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:02:18,529 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:02:18,617 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:02:19,125 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:02:19,535 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:02:19,536 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:02:19,601 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:02:19,602 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:02:19,603 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:02:19,877 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:02:19.877164
+2025-11-29 00:02:29,497 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:02:29,604 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:02:29,605 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:02:29,610 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:02:30,018 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:02:30,020 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:02:30,045 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:02:30,057 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:02:30,060 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:02:30,334 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:02:30,336 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:02:30,336 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:02:31,475 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:02:31,567 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:02:32,081 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:02:32,500 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:02:32,501 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:02:32,557 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:02:32,557 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:02:32,559 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:02:32,811 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:02:32.811042
+2025-11-29 00:03:02,890 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:03:02,991 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:03:02,991 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:03:02,997 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:03:03,375 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:03:03,376 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:03:03,400 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:03:03,401 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:03:03,407 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:03:03,697 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:03:03,698 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:03:03,699 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:03:04,840 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:03:04,924 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:03:05,302 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:03:05,731 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:03:05,732 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:03:05,793 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:03:05,794 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:03:05,796 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:03:06,016 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:03:06.016604
+2025-11-29 00:13:05,202 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:13:05.202709
+2025-11-29 00:15:10,415 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:15:10,530 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:15:10,530 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:15:10,536 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:15:10,908 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:15:10,909 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:15:10,931 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:15:10,937 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:15:10,940 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:15:11,196 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:15:11,198 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:15:11,198 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:15:12,244 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:15:12,324 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:15:12,711 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-11-29 00:15:13,070 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:15:13,135 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:15:13,135 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:15:13,136 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:15:13,385 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:15:13.385051
+2025-11-29 00:15:35,109 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:15:35,220 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:15:35,220 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:15:35,226 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:15:35,512 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-11-29 00:15:35,528 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:15:35,532 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:15:35,537 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:15:35,868 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:15:35,869 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:15:35,869 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:15:36,865 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:15:36,952 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:15:37,459 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:15:37,459 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:15:37,565 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:15:37,565 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:15:37,567 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:15:37,843 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:15:37.843118
+2025-11-29 00:17:19,656 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:17:19,766 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:17:19,766 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:17:19,772 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:17:20,114 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:17:20,129 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:17:20,139 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:17:20,143 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:17:20,387 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:17:20,388 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:17:20,388 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:17:21,433 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:17:21,521 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:17:21,573 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'memory
+2025-11-29 00:17:21,821 [WARNING] [MainThread] [root/widget_builder.py:37]: Ignoring construction of invalid widget 'memory'
+2025-11-29 00:17:22,009 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:17:22,010 [ERROR] [MainThread] [root/widget_builder.py:86]: Failed to add undefined widget(s)  - The widget "memory" is undefined.
+2025-11-29 00:17:22,094 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:17:22,142 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:17:22,142 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:17:22,143 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:17:22,694 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:17:22.694719
+2025-11-29 00:17:47,851 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:17:47,962 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:17:47,962 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:17:47,969 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:17:48,305 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:17:48,323 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:17:48,331 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:17:48,335 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:17:48,577 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:17:48,578 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:17:48,579 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:17:49,603 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:17:49,688 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:17:49,740 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'memory
+2025-11-29 00:17:49,975 [WARNING] [MainThread] [root/widget_builder.py:37]: Ignoring construction of invalid widget 'memory'
+2025-11-29 00:17:50,165 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:17:50,165 [ERROR] [MainThread] [root/widget_builder.py:86]: Failed to add undefined widget(s)  - The widget "memory" is undefined.
+2025-11-29 00:17:50,252 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:17:50,299 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:17:50,299 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:17:50,300 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:17:50,696 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:17:50.696167
+2025-11-29 00:18:13,630 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:18:13,741 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:18:13,741 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:18:13,748 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:18:14,105 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:18:14,121 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:18:14,132 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:18:14,134 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:18:14,378 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:18:14,379 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:18:14,379 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:18:15,415 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:18:15,495 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:18:16,005 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:18:16,006 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:18:16,113 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:18:16,114 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:18:16,114 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:18:16,397 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:18:16.397061
+2025-11-29 00:20:13,605 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:20:13,712 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:20:13,712 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:20:13,718 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:20:14,070 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:20:14,088 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:20:14,099 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:20:14,103 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:20:14,358 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:20:14,360 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:20:14,360 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:20:15,369 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:20:15,453 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:20:15,967 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:20:15,967 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:20:16,090 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:20:16,090 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:20:16,091 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:20:16,368 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:20:16.368106
+2025-11-29 00:21:27,274 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:21:27,386 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:21:27,386 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:21:27,393 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:21:27,661 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:21:27,676 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:21:27,684 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:21:27,687 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:21:28,007 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:21:28,008 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:21:28,008 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:21:29,045 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:21:29,128 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:21:29,662 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:21:29,663 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:21:29,776 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:21:29,776 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:21:29,777 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:21:29,779 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\lijie\AppData\Local\YASB\systray_state_TECHNOLOGIESVX24622KWS2224320595.json
+2025-11-29 00:21:29,779 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-11-29 00:21:29,787 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-11-29 00:21:29,806 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-11-29 00:21:29,819 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\lijie\AppData\Local\YASB\systray_state_CALIFORNIAINSTITUTEOFTECHNOLOGYDISPLAY1.json
+2025-11-29 00:21:29,819 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-11-29 00:21:29,867 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-11-29 00:21:30,070 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 4786228
+2025-11-29 00:21:30,081 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49338
+2025-11-29 00:21:35,239 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:21:35.239310
+2025-11-29 00:21:50,942 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:21:50,943 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:21:50,943 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:21:51,661 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:21:51,715 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:21:52,273 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:21:52,274 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:21:52,351 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:21:52,351 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:21:52,352 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:21:52,355 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\lijie\AppData\Local\YASB\systray_state_TECHNOLOGIESVX24622KWS2224320595.json
+2025-11-29 00:21:52,355 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-11-29 00:21:52,361 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-11-29 00:21:52,380 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\lijie\AppData\Local\YASB\systray_state_CALIFORNIAINSTITUTEOFTECHNOLOGYDISPLAY1.json
+2025-11-29 00:21:52,380 [DEBUG] [MainThread] [systray_widget/systray.py:536]: State file not found.
+2025-11-29 00:21:52,464 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-11-29 00:21:52,557 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-11-29 00:21:52,643 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:21:52.643566
+2025-11-29 00:21:52,676 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 4524176
+2025-11-29 00:21:52,686 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49338
+2025-11-29 00:22:29,513 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:22:29,615 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:22:29,615 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:22:29,620 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:22:29,771 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:22:29,775 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-11-29 00:22:29,776 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\lijie\AppData\Local\YASB\systray_state_TECHNOLOGIESVX24622KWS2224320595.json
+2025-11-29 00:22:29,776 [DEBUG] [MainThread] [systray_widget/systray.py:516]: State file not found.
+2025-11-29 00:22:29,777 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4524176
+2025-11-29 00:22:29,780 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-11-29 00:22:29,781 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\lijie\AppData\Local\YASB\systray_state_CALIFORNIAINSTITUTEOFTECHNOLOGYDISPLAY1.json
+2025-11-29 00:22:29,781 [DEBUG] [MainThread] [systray_widget/systray.py:516]: State file not found.
+2025-11-29 00:22:29,782 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4524176
+2025-11-29 00:22:29,827 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:22:29,836 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:22:29,839 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:22:29,903 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4524176
+2025-11-29 00:22:30,227 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:22:30,229 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:22:30,230 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:22:31,232 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:22:31,320 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:22:31,848 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:22:31,849 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:22:31,923 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:22:31,923 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:22:31,924 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:22:32,219 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:22:32.219021
+2025-11-29 00:23:51,502 [ERROR] [MainThread] [root/bar_manager.py:56]: Error loading config: while scanning a simple key
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 110, column 5
+could not find expected ':'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 111, column 7
+2025-11-29 00:24:03,309 [ERROR] [MainThread] [root/bar_manager.py:56]: Error loading config: while scanning a simple key
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 110, column 7
+could not find expected ':'
+  in "C:\Users\lijie\AppData\Local\yasb\config.yaml", line 111, column 7
+2025-11-29 00:24:09,016 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-29 00:24:09,118 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-29 00:24:09,118 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-29 00:24:09,124 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-29 00:24:09,356 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-29 00:24:09,372 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-29 00:24:09,387 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-29 00:24:09,389 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-29 00:24:09,717 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-11-29 00:24:09,718 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-11-29 00:24:09,718 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-29 00:24:10,720 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-11-29 00:24:10,796 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-11-29 00:24:11,315 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-29 00:24:11,316 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\lijie\AppData\Local\yasb
+2025-11-29 00:24:11,391 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-11-29 00:24:11,391 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-29 00:24:11,392 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-29 00:24:11,670 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-29 00:24:11.670151
