@@ -1,7 +1,9 @@
-#modules
+#git-aliases
 Import-Module git-aliases -DisableNameChecking
+#readline
 Import-Module PSReadline
 Import-Module scoop-completion
+
 #PSReadLine Options
 Set-PSReadlineOption -EditMode Emacs
 Set-PSReadlineOption -PredictionSource History
@@ -10,14 +12,8 @@ Set-PSReadLineKeyHandler -Key 'Ctrl+p' -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key 'Ctrl+n' -Function HistorySearchForward
 Set-PSReadlineKeyHandler -Key 'Ctrl+y' -Function AcceptSuggestion
 Set-PSReadLineKeyHandler -Key 'Ctrl+q' -Function TabCompleteNext
-#PSFzf keybindings
-# Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r' -PSReadlineChordSetLocation 'alt+c' -PSReadlineChordReverseHistoryArgs 'alt+a'
-#
-#use fd as the default finder
-# $env:FZF_CTRL_T_COMMAND='fd --hidden --follow  --exclude node_modules --exclude .vscode --no-ignore'
-# $env:FZF_ALT_C_COMMAND='fd --hidden -L -td -tl --exclude .git --exclude .vscode --no-ignore'
-# $env:FZF_DEFAULT_OPTS='--layout=reverse  --height=80% '
 
+#oh-my-posh init
 oh-my-posh init pwsh --config 'C:\Users\lijie\AppData\Local\Programs\oh-my-posh\themes\agnoster.minimal.omp.json' | Invoke-Expression
 
 # set alias
@@ -44,4 +40,50 @@ function y {
     }
     Remove-Item -Path $tmp
 }
+
 # fzf wrapper
+$env:FZF_DEFAULT_OPTS='--layout=reverse  --height=80%'
+
+Set-PSReadlineKeyHandler -Key 'Ctrl+t' -ScriptBlock {
+    $t = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
+    $c = [Microsoft.Powershell.PSConsoleReadLine]::CursorPosition
+    $command = 'fd -tf --hidden --follow  --exclude node_modules --exclude .vscode --no-ignore  2>$null | fzf --walker file,dir,follow,hidden --border'
+    try{
+        $result = Invoke-Expression $command
+        if($result){
+            if($result -match " ") { $result = '"' + $result + '"'}
+            [Microsoft.Powershell.PSConsoleReadLine]::Insert($result)
+        }
+    }
+    catch {}
+}
+
+Set-PSReadLineKeyHandler -Key 'Alt+c' -ScriptBlock {
+    $t = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
+    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore 2>$null | fzf --border --prompt=" Go To >" '
+    try{
+        $result = Invoke-Expression $command
+        if ($result){
+            if($result -match " ") { $result = '"'+$result+'"'}
+            [Microsoft.Powershell.PSConsoleReadLine]::DeleteLine()
+            [Microsoft.Powershell.PSConsoleReadLine]::Insert("cd $result")
+            [Microsoft.Powershell.PSConsoleReadLine]::AcceptLine()
+        }
+    }
+    catch {}
+}
+
+Set-PSReadLineKeyHandler -Key 'Ctrl+r' -ScriptBlock {
+    $initQuery = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
+    $historyPath = (Get-PSReadLineOption).HistorySavePath
+    $command = "Get-Content '$historyPath' -ErrorAction SilentlyContinue | Select-Object -Unique | fzf --no-sort --tac --prompt='History>' --query '$initQuery'"
+    try{
+        $result = Invoke-Expression $command
+        if($result){
+            [Microsoft.Powershell.PSConsoleReadLine]::DeleteLine()
+            [Microsoft.Powershell.PSConsoleReadLine]::Insert($result)
+        }
+    }
+    catch{}
+}
+
