@@ -10,4 +10,5 @@ lazygit/*
 !glazewm/
 !.gitignore
 !pwsh.ps1
-!yasb/
+!YASB/
+YASB/yasb.log
