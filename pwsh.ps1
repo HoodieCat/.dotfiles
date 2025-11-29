@@ -14,7 +14,7 @@ Set-PSReadlineKeyHandler -Key 'Ctrl+y' -Function AcceptSuggestion
 Set-PSReadLineKeyHandler -Key 'Ctrl+q' -Function TabCompleteNext
 
 #oh-my-posh init
-oh-my-posh init pwsh --config 'C:\Users\lijie\AppData\Local\Programs\oh-my-posh\themes\agnoster.minimal.omp.json' | Invoke-Expression
+oh-my-posh init pwsh | Invoke-Expression
 
 # set alias
 Set-Alias lg lazygit
@@ -47,7 +47,7 @@ $env:FZF_DEFAULT_OPTS='--layout=reverse  --height=80%'
 Set-PSReadlineKeyHandler -Key 'Ctrl+t' -ScriptBlock {
     $t = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
     $c = [Microsoft.Powershell.PSConsoleReadLine]::CursorPosition
-    $command = 'fd -tf --hidden --follow  --exclude node_modules --exclude .vscode --no-ignore  2>$null | fzf --walker file,dir,follow,hidden --border'
+    $command = 'fd -tf --hidden --follow  --exclude node_modules --exclude .vscode --no-ignore  2>$null | fzf --walker file,dir,follow,hidden --border --scheme path --preview ''bat -n --color=always {}'' '
     try{
         $result = Invoke-Expression $command
         if($result){
@@ -60,7 +60,7 @@ Set-PSReadlineKeyHandler -Key 'Ctrl+t' -ScriptBlock {
 
 Set-PSReadLineKeyHandler -Key 'Alt+c' -ScriptBlock {
     $t = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
-    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore 2>$null | fzf --border --prompt=" Go To >" '
+    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore 2>$null | fzf --scheme path --border --prompt=" Go To >" --preview ''tree {}'''
     try{
         $result = Invoke-Expression $command
         if ($result){
@@ -76,7 +76,7 @@ Set-PSReadLineKeyHandler -Key 'Alt+c' -ScriptBlock {
 Set-PSReadLineKeyHandler -Key 'Ctrl+r' -ScriptBlock {
     $initQuery = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
     $historyPath = (Get-PSReadLineOption).HistorySavePath
-    $command = "Get-Content '$historyPath' -ErrorAction SilentlyContinue | Select-Object -Unique | fzf --no-sort --tac --prompt='History>' --query '$initQuery'"
+    $command = "Get-Content '$historyPath' -ErrorAction SilentlyContinue | Select-Object -Unique | fzf --no-sort --tac --prompt='History>' --scheme history --query '$initQuery'"
     try{
         $result = Invoke-Expression $command
         if($result){

@@ -16,11 +16,6 @@ map('n','<leader>qo','<cmd>copen<CR>',{desc= 'quickfix'})
 map('n', '<leader>bd', ':bdelete<CR>', { desc = '[B]uffer [D]elete'})
 map('n','<C-k>','<C-w><c-+>',{ desc = 'Increase height' })
 map('n','<C-j>',function()
-  -- local current_win = vim.api.nvim_get_current_win()
-  -- local current_tab_wins = vim.api.nvim_tabpage_list_wins(0)
-  -- local function is_downmost_win()
-  --
-  --   end
 end ,{ desc = 'Decrease height' })
 map('n','<c-l>','<c-w><c->>', {desc = 'Increase width'})
 map('n','<c-h>','<c-w><c-<>', {desc = 'Decrease width'})
