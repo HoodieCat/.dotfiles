@@ -7,8 +7,4 @@
 !lazygit/
 lazygit/*
 !lazygit/config.yml
-!glazewm/
 !.gitignore
-!pwsh.ps1
-!YASB/
-YASB/yasb.log
