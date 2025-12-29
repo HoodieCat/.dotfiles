@@ -1,89 +1,87 @@
 general:
-  config_reload_commands: []
-  focus_follows_cursor: true
-
-  # Whether to switch back and forth between the previously focused
-  # workspace when focusing the current workspace.
+  config_reload_commands: [ shell-exec yasb ]
+  focus_follows_cursor: false
   toggle_workspace_on_refocus: false
 
   cursor_jump:
-    # Whether to automatically move the cursor on the specified trigger.
     enabled: true
-    trigger: 'monitor_focus'
+    trigger: 'window_focus'
   hide_method: 'cloak'
-  show_all_in_taskbar: true
+  show_all_in_taskbar: false
 
-topbar:
-  enable: false
 
 gaps:
   scale_with_dpi: true
   inner_gap: '5px'
-
-  # Gap between windows and the screen edge.
   outer_gap:
     top: '5px'
-    right: '5px'
-    bottom: '5px'
-    left: '5px'
+    right: '0px'
+    bottom: '0px'
+    left: '0px'
 
 window_effects:
   focused_window:
     border:
       enabled: true
-      color: '#FEBAAD'
+      color: '#ff4500'
     hide_title_bar:
-      enabled: false
+      enabled: true
 
-    # Change the corner style of the windowG's frame.
     corner_style:
       enabled: false
-      # Allowed values: 'square', 'rounded', 'small_rounded'.
       style: 'rounded'
 
-    # Change the transparency of the window.
     transparency:
       enabled: false
-      opacity: '95%'
+      opacity: '100%'
 
-  # Visual effects to apply to non-focused windows.
   other_windows:
     border:
       enabled: true
-      color: '#a1a1a1'
+      color: '#0000ff'
     hide_title_bar:
-      enabled: false
+      enabled: true
     corner_style:
       enabled: false
-      style: 'square'
+      style: 'rounded'
     transparency:
-      enabled: false
-      opacity: '0%'
+      enabled: true
+      opacity: '90%'
 
 window_behavior:
   initial_state: 'tiling'
-
   state_defaults:
     floating:
       centered: true
       shown_on_top: false
 
     fullscreen:
-      # Maximize the window if possible. If the window doesn't have a
-      # maximize button, then it'll be fullscreen'ed normally instead.
       maximized: true
-
-      # Whether to show fullscreen windows as always on top.
       shown_on_top: false
 
 workspaces:
   - name: '1'
+    display_name: " Home"
+    keep_alive: true
+
   - name: '2'
+    display_name: " Term"
+
   - name: '3'
+    display_name: "🏄Surf"
+
   - name: '4'
+    display_name: "📂 Exp"
+    keep_alive: true
+
   - name: '5'
+    display_name: "📺 Time"
+
   - name: '6'
+    display_name: "󰨞 Code"
+
   - name: '7'
+    display_name: "🎮 game"
   - name: '8'
   - name: '9'
 
@@ -91,45 +89,53 @@ window_rules:
   - commands: ['ignore']
     match:
       - window_process: { equals: 'yasb' }
-      # picture in picture on explorer
       - window_title: { regex: '[Pp]icture.in.[Pp]icture|画中画' }
         window_class: { regex: 'Chrome_WidgetWin_1|MozillaDialogClass' }
-
-      # Ignore rules for various 3rd-party apps.
       - window_process: { equals: 'PowerToys' }
         window_class: { regex: 'HwnRRRapper\[PowerToys\.PowerAccent.*?\]' }
       - window_process: { equals: 'PowerToys' }
         window_title: { regex: '.*? - Peek' }
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
-
-  # workspace 1 for work
-  - commands: ['move --workspace 1', 'focus --workspace 1']
-    match:
-      - window_process: { equals: 'WindowsTerminal'}
-
-  # workspace 4 for entertainment
-  - commands: ['move --workspace 4', 'focus --workspace 4', 'toggle-fullscreen']
-    match:
-      - window_process: { equals: 'Hearthstone'}
-      - window_process: { equals: 'Spotify'}
-
-  - commands: ['move --workspace 4', 'focus --workspace 4', 'toggle-floating']
-    match:
+      - window_class: { regex: "#32770" }
+      - window_process: { equals: 'uTools'}
       - window_process: { equals: 'Overwolf'}
-      # - window_process: { equals: 'SystemSettings'}
-      # - window_process: { equals: 'Taskmgr'}
-  # utilities floating
+
   - commands: ['toggle-floating --centered']
     match:
       - window_process: { equals: 'eudic'}
       - window_process: { equals: 'everything'}
+      - window_process: { equals: 'Clash Party'}
+      - window_process: { equals: 'winspy'}
+      - window_process: { equals: 'Firestone'}
 
-  #system utilities for workspace 5
+  - commands: ['move --workspace 2', 'focus --workspace 2']
+    match:
+      - window_process: { equals: 'WindowsTerminal'}
+
+  - commands: ['move --workspace 3', 'focus --workspace 3']
+    match:
+      - window_process: { equals: 'msedge'}
+      - window_process: { equals: 'PowerToys'}
+        window_class: { equals: 'WinUIDesktopWin32WindowClass'}
+
+  - commands: ['move --workspace 4', 'focus --workspace 4']
+    match:
+      - window_process: { equals: 'explorer'}
+
   - commands: ['move --workspace 5', 'focus --workspace 5']
     match:
-      - window_process: { equals: 'Mihomo Party'}
-      - window_process: { equals: 'explorer'}
+      - window_process: { equals: 'Spotify'}
+      - window_process: { equals: 'mpv' }
+      - window_process: { equals: 'calibre'}
+
+  - commands: ['move --workspace 6', 'focus --workspace 6']
+    match:
+      - window_process: { equals: 'Code'}
+
+  - commands: ['move --workspace 7']
+    match:
+      - window_process: { equals: 'Hearthstone'}
 
 binding_modes:
   - name: 'resize'
@@ -176,14 +182,14 @@ keybindings:
     bindings: ['alt+v']
 
   - commands: ['toggle-floating --centered']
-    bindings: ['alt+shift+space']
+    bindings: ['control+alt+space']
 
   - commands: ['toggle-tiling']
     bindings: ['alt+t']
 
   # Change the focused window to be fullscreen.
   - commands: ['toggle-fullscreen']
-    bindings: ['alt+shift+f']
+    bindings: ['control+alt+f']
 
   # Minimize focused window.
   - commands: ['toggle-minimized']
@@ -205,19 +211,6 @@ keybindings:
   - commands: ['wm-redraw']
     bindings: ['alt+shift+w']
 
-  - commands: ['shell-exec wt']
-    bindings: ['alt+enter']
-
-  # Focus the next/previous active workspace defined in `workspaces` config.
-  # - commands: ['focus --next-active-workspace']
-  #   bindings: ['alt+s']
-  # - commands: ['focus --prev-active-workspace']
-  #   bindings: ['alt+a']
-
-  # Focus the workspace that last had focus.
-  # - commands: ['focus --recent-workspace']
-  #   bindings: ['alt+d']
-
   # Change focus to a workspace defined in `workspaces` config.
   - commands: ['focus --workspace 1']
     bindings: ['alt+1']
@@ -238,6 +231,8 @@ keybindings:
   - commands: ['focus --workspace 9']
     bindings: ['alt+9']
 
+  - commands: ['shell-exec wt']
+    bindings: ['alt+enter']
   # Move the focused window's parent workspace to a monitor in a given
   # direction.
   - commands: ['move-workspace --direction left']

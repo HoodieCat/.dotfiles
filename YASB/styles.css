@@ -363,3 +363,8 @@ QToolTip {
 .glazewm-tiling-direction .btn:hover {
     background-color: #727272;
 }
+.cava-widget {
+    padding: 0;
+    margin: 0;
+}
+.cava-widget .widget-container {}

@@ -1,10 +1,6 @@
 watch_stylesheet: true
 watch_config: true
 debug: false
-# glazewm:
-#   start_command: "glazewm.exe start"
-#   stop_command: "glazewm.exe command wm-exit"
-#   reload_command: "glazewm.exe command wm-exit && glazewm.exe start"
 bars:
   primary-bar:
     enabled: true
@@ -39,19 +35,18 @@ bars:
         "home",
         "glazewm_tiling_direction",
         "glazewm_workspaces",
-        "active_window",
       ]
       center: [
-        "clock",
+        "active_window",
       ]
       right: [
         "cava",
-        "media",
-        "weather",
-        "microphone",
-        "volume",
         "memory",
-        "power_menu",
+        "cpu",
+        "bluetooth",
+        "Razer_battery",
+        "volume",
+        "clock",
         ]
 widgets:
   home:
@@ -66,30 +61,6 @@ widgets:
       system_menu: true
       power_menu: true
       blur: false
-  media:
-    type: "yasb.media.MediaWidget"
-    options:
-      label: "<span>\uf001</span> {title}"
-      label_alt: "<span>\uf001</span> {artist}"
-      callbacks:
-        on_left: "toggle_media_menu"
-        on_middle: "do_nothing"
-        on_right: "do_nothing"
-      max_field_size:
-        label: 64
-        label_alt: 24
-      show_thumbnail: true
-      controls_only: false
-      controls_left: true
-      hide_empty: true
-      thumbnail_alpha: 250
-      thumbnail_padding: 8
-      thumbnail_corner_radius: 0
-      icons:
-        prev_track: ""
-        next_track: ""
-        play: ""
-        pause: ""
 
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
@@ -105,10 +76,8 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      # label: "{%a, %d %b %H:%M}"
-      label: "{%I:%M:%S}"
-      label_alt: "{%I:%M:%S}"
-      # label_alt: "{%A, %d %B %Y %H:%M}"
+      label: "{%a, %d %b %H:%M}"
+      label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       callbacks:
         on_left: "toggle_label"
@@ -208,10 +177,10 @@ widgets:
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
-      populated_label: "\udb85\udcfc"
-      empty_label: "\udb85\udcfc"
-      active_populated_label: "\udb85\udcfb"
-      active_empty_label: "\udb85\udcfb"
+      # populated_label: "\udb85\udcfc"
+      # empty_label: "\udb85\udcfc"
+      # active_populated_label: "\udb85\udcfb"
+      # active_empty_label: "\udb85\udcfb"
 
 
   glazewm_tiling_direction:
@@ -224,30 +193,10 @@ widgets:
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
-  cava:
-    type: "yasb.cava.CavaWidget"
-    options:
-      bar_height: 12
-      min_bar_height: 0
-      gradient: 1
-      reverse: 0
-      foreground: "#89b4fa"
-      gradient_color_1: '#74c7ec'
-      gradient_color_2: '#89b4fa'
-      gradient_color_3: '#cba6f7'
-      bars_number: 8
-      bar_spacing: 2
-      bar_width: 4
-      hide_empty: true
-      container_padding:
-        top: 0
-        left: 8
-        bottom: 0
-        right: 8
   cpu:
     type: "yasb.cpu.CpuWidget"
     options:
-      label: "<span>\uf4bc</span> {info[percent][total]}"
+      label: "<span>\uDB83\uDEE0</span> {info[percent][total]}"
       label_alt: "<span>\uf437</span> {info[histograms][cpu_percent]}"
       update_interval: 2000
       cpu_thresholds:
@@ -275,7 +224,7 @@ widgets:
   memory:
       type: "yasb.memory.MemoryWidget"
       options:
-        label: "<span>\uf4bc</span> {virtual_mem_percent}"
+        label: "<span>\uefc5</span> {virtual_mem_percent}"
         label_alt: "<span>\uf4bc</span> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
         update_interval: 5000
         callbacks:
@@ -301,3 +250,55 @@ widgets:
           color: "black"
           radius: 3
           offset: [ 1, 1 ]
+  bluetooth:
+    type: "yasb.bluetooth.BluetoothWidget"
+    options:
+      label: "<span>{icon}</span> {device_count}"
+      label_alt: "{device_name}"
+      label_no_device: "No devices connected"
+      label_device_separator: ", "
+      max_length: 10
+      max_length_ellipsis: "..."
+      icons: 
+        bluetooth_on: "\udb80\udcaf"
+        bluetooth_off: "\udb80\udcb2"
+        bluetooth_connected: "\udb80\udcb1"
+      device_aliases:
+        - name: "T5.0"
+          alias: "\uf025"
+      callbacks:
+        on_left: "toggle_label"
+        on_right: "exec cmd.exe /c start ms-settings:bluetooth"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+  cava:
+    type: "yasb.cava.CavaWidget"
+    options:
+      bar_height: 12
+      min_bar_height: 0
+      gradient: 1
+      foreground: "#89b4fa"
+      gradient_color_1: '#74c7ec'
+      gradient_color_2: '#89b4fa'
+      gradient_color_3: '#cba6f7'
+      bars_number: 8
+      bar_spacing: 2
+      bar_width: 4
+      bar_type: "bars"
+      framerate: 60
+      hide_empty: false
+  Razer_battery:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "\uefba {data}"
+      label_alt: "{data}"
+      class_name: "razer_battery_widget"
+      exec_options:
+        run_cmd: "powershell ~/razer_battery.ps1"
+        run_interval: 60000
+        return_format: "string"
+        hide_empty: false
+
