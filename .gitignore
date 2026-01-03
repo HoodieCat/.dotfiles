@@ -11,4 +11,6 @@ lazygit/*
 !.gitignore
 !pwsh.ps1
 !YASB/
-YASB/yasb.log
+YASB/*
+!YASB/config.yaml
+!YASB/styles.css
