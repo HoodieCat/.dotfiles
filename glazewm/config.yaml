@@ -1,7 +1,6 @@
 general:
   startup_commands: [ 'shell-exec yasb']
-  shutdown_commands: ['shell-exec taskkill /IM zebar.exe /F']
-  # shutdown_commands: [ 'shell-exe taskkill /im yasb.exe /f']
+  shutdown_commands: [ 'shell-exec taskkill /im yasb.exe /f']
   config_reload_commands: []
   focus_follows_cursor: false
   toggle_workspace_on_refocus: false
@@ -48,7 +47,7 @@ window_effects:
       style: 'rounded'
     transparency:
       enabled: true
-      opacity: '90%'
+      opacity: '95%'
 
 window_behavior:
   initial_state: 'tiling'
@@ -76,10 +75,10 @@ workspaces:
     display_name: "📂 Exp"
 
   - name: '5'
-    display_name: "📺 Time"
+    display_name: "📝 Edit"
 
   - name: '6'
-    display_name: "📝 Edit"
+    display_name: "📺 Time"
 
   - name: '7'
     display_name: "🎮 game"
@@ -100,6 +99,7 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_class: { regex: "#32770" }
       - window_process: { equals: 'uTools'}
+      - window_process: { equals: 'Overwolf'}
 
   - commands: ['toggle-floating --centered']
     match:
@@ -109,7 +109,7 @@ window_rules:
       - window_process: { equals: 'winspy'}
       - window_process: { equals: 'Firestone'}
       - window_process: { equals: 'zeal'}
-      - window_process: { equals: 'Overwolf'}
+      - window_process: { equals: 'Weixin'}
 
   - commands: ['move --workspace 1', 'focus --workspace 1']
     match:
@@ -132,15 +132,15 @@ window_rules:
 
   - commands: ['move --workspace 5', 'focus --workspace 5']
     match:
+      - window_process: { equals: 'Code'}
+      - window_process: { equals: 'Obsidian'}
+
+  - commands: ['move --workspace 6', 'focus --workspace 6']
+    match:
       - window_process: { equals: 'Spotify'}
       - window_process: { equals: 'mpv' }
       - window_process: { equals: 'calibre'}
       - window_process: { equals: 'okular'}
-
-  - commands: ['move --workspace 6', 'focus --workspace 6']
-    match:
-      - window_process: { equals: 'Code'}
-      - window_process: { equals: 'Obsidian'}
 
   - commands: ['move --workspace 7']
     match:

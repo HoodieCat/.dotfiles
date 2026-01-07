@@ -15,6 +15,7 @@ Set-Alias lg lazygit
 Set-Alias vi nvim
 Set-Alias omp oh-my-posh
 
+# $env:FZF_DEFAULT_OPTS =
 # yazi
 function y {
     $tmp = [System.IO.Path]::GetTempFileName()
@@ -67,3 +68,5 @@ Set-PSReadLineKeyHandler -Key 'Ctrl+r' -ScriptBlock {
     }
     catch{}
 }
+
+Invoke-Expression (& { (zoxide init powershell | Out-String) })

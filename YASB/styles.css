@@ -465,3 +465,28 @@ QToolTip {
     font-size: 11px;
     font-weight: bold;
 }
+.systray {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.systray .button {
+    border-radius: 4px;
+    padding: 2px 2px;
+    background-color: transparent;
+}
+.systray .button:hover,
+.systray .unpinned-visibility-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.systray .unpinned-visibility-btn {
+    height: 20px;
+    width: 16px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+.systray .unpinned-visibility-btn:hover {
+    border-radius: 4px;
+}
