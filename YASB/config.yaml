@@ -38,12 +38,10 @@ bars:
         "active_window",
       ]
       right: [
-        "media",
         "systray",
         "language",
-        "volume",
-        "weather",
         "Razer_battery",
+        "volume",
         "clock"
         ]
 widgets:
@@ -187,7 +185,7 @@ widgets:
     options:
       offline_label: "GlazeWM Offline"
       hide_empty_workspaces: true
-      hide_if_offline: false
+      hide_if_offline: true
       btn_shadow:
         enabled: true
         color: "black"
@@ -328,56 +326,3 @@ widgets:
         left: 2
         bottom: 0
         right: 2
-  media:
-    type: "yasb.media.MediaWidget"
-    options:
-      label: "{title} - {artist}"
-      label_alt: "{title}"
-      hide_empty: true
-      callbacks:
-        on_left: "toggle_media_menu"
-        on_middle: "toggle_play_pause"
-        on_right: "toggle_label"
-      max_field_size:
-        label: 16
-        label_alt: 16
-      show_thumbnail: true
-      controls_only: false
-      controls_left: false
-      controls_hide: true
-      thumbnail_edge_fade: true
-      thumbnail_padding: 32
-      scrolling_label:
-        enabled: true
-        update_interval_ms: 50
-        style: "left"
-        separator: " "
-        label_padding: 2
-        ease_slope: 20
-        ease_pos: 0.8
-        ease_min: 0.5
-      icons:
-        prev_track: "\ue892"
-        next_track: "\ue893"
-        play: "\ue768"
-        pause: "\ue769"
-      media_menu:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "None"
-        alignment: "right"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        thumbnail_corner_radius: 4
-        thumbnail_size: 80
-        max_title_size: 60
-        max_artist_size: 20
-        show_source: true
-      media_menu_icons:
-        play: "\ue768"
-        pause: "\ue769"
-        prev_track: "\ue892"
-        next_track: "\ue893"
-

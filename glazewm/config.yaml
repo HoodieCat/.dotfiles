@@ -69,19 +69,19 @@ workspaces:
     display_name: " Term"
 
   - name: '3'
-    display_name: "🏄 Surf"
+    display_name: "🏄Surf"
 
   - name: '4'
-    display_name: "📂 Exp"
+    display_name: "📂Exp"
 
   - name: '5'
-    display_name: "📝 Edit"
+    display_name: "📝Edit"
 
   - name: '6'
-    display_name: "📺 Time"
+    display_name: "📺Time"
 
   - name: '7'
-    display_name: "🎮 game"
+    display_name: "🎮game"
   - name: '8'
   - name: '9'
 
@@ -99,7 +99,6 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_class: { regex: "#32770" }
       - window_process: { equals: 'uTools'}
-      - window_process: { equals: 'Overwolf'}
 
   - commands: ['toggle-floating --centered']
     match:
@@ -145,7 +144,7 @@ window_rules:
   - commands: ['move --workspace 7']
     match:
       - window_process: { equals: 'Hearthstone'}
-      - window_process: { equals: 'Battle.net'}
+      - window_process: { equals: 'Battle'}
 
 binding_modes:
   - name: 'resize'

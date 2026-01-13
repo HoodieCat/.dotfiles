@@ -14,8 +14,11 @@ oh-my-posh init pwsh | Invoke-Expression
 Set-Alias lg lazygit
 Set-Alias vi nvim
 Set-Alias omp oh-my-posh
-
-# $env:FZF_DEFAULT_OPTS =
+if(Test-Path alias:pwd) {Remove-Item alias:pwd}
+function pwd {
+    $(Get-Location).Path
+}
+$env:FZF_DEFAULT_OPTS = "--bind 'ctrl-h:backward-delete-char'"
 # yazi
 function y {
     $tmp = [System.IO.Path]::GetTempFileName()
@@ -25,6 +28,13 @@ function y {
 	Set-Location -LiteralPath ([System.IO.Path]::GetFullPath($cwd))
     }
     Remove-Item -Path $tmp
+}
+function gst {
+    git status
+}
+
+function ga {
+    git add $args[0]
 }
 
 # fzf wrapper
@@ -41,8 +51,7 @@ Set-PSReadlineKeyHandler -Key 'Ctrl+t' -ScriptBlock {
 }
 
 Set-PSReadLineKeyHandler -Key 'Alt+c' -ScriptBlock {
-    $t = [Microsoft.Powershell.PSConsoleReadLine]::InputLine
-    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore 2>$null | fzf --scheme path --border --preview "tree {}" --bind "ctrl-h:backward-delete-char" '
+    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore 2>$null | fzf --scheme path --border --preview "tre {}" --bind "ctrl-h:backward-delete-char" '
     try{
         $result = Invoke-Expression $command
         if ($result){
