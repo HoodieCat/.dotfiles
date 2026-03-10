@@ -2,7 +2,7 @@ local opts = { noremap = true, silent = true}
 local map = vim.keymap.set
 map('n', '<Esc>', '<cmd>nohls<CR>',opts)
 map('n','<leader>dl', vim.diagnostic.setloclist, { desc = 'Open [D]iagnositc [l]ocal list'})
-map('n','<leader>dc', function() vim.diagnostic.enable(not vim.diagnostic.is_enabled()) end, { desc = '[D]iagnostic [C]lose'})
+map('n','<leader>dt', function() vim.diagnostic.enable(not vim.diagnostic.is_enabled()) end, { desc = '[D]iagnostic [T]oggle'})
 map('n',']d',function() vim.diagnostic.jump({count =2, float =true}) end, opts )
 map('n','[d',function() vim.diagnostic.jump({count =-1, float = true}) end, opts)
 map('n','<leader>df',function() vim.diagnostic.open_float() end, {desc = '[d]iagnostic [f]loating'})
@@ -23,3 +23,4 @@ map('n','[t',':tabprevious<CR>',{desc = '[T]ab previous'})
 map('n',']t',':tabNext<CR>',{desc = '[T]ab previous'})
 map('n','<leader>tn',':tabnew<CR>',{ desc = '[T]ab New'})
 map('n','<leader>tc',':tabclose<CR>',{ desc = '[T]ab New'})
+map('n','<leader>m', '<cmd>Mason<CR>', { desc= "[M]ason Menu"})

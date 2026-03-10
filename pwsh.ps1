@@ -1,4 +1,5 @@
 # Import-Module git-aliases -DisableNameChecking
+Import-Module Open-GitRepo
 Import-Module PSReadline
 Set-PSReadlineOption -EditMode Emacs
 Set-PSReadlineOption -PredictionSource History
@@ -8,11 +9,12 @@ Set-PSReadLineKeyHandler -Key 'Ctrl+n' -Function HistorySearchForward
 Set-PSReadlineKeyHandler -Key 'Ctrl+y' -Function AcceptSuggestion
 Set-PSReadLineKeyHandler -Key 'Ctrl+q' -Function TabCompleteNext
 #oh-my-posh
-oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config "~/AppData/Local/oh-my-posh-theme/mytheme.omp.json"| Invoke-Expression
 
 #alias
 Set-Alias lg lazygit
 Set-Alias vi nvim
+Set-Alias go Open-GitRepo
 Set-Alias omp oh-my-posh
 if(Test-Path alias:pwd) {Remove-Item alias:pwd}
 function pwd {
@@ -31,10 +33,6 @@ function y {
 }
 function gst {
     git status
-}
-
-function ga {
-    git add $args[0]
 }
 
 # fzf wrapper

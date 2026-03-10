@@ -1,4 +1,3 @@
---Plugin Manager--Lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
@@ -15,19 +14,15 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Setup lazy.nvim
 require("lazy").setup({
 spec = {
-  -- colorscheme
-	{"folke/tokyonight.nvim",
-	priority = 1000,
-	config = function()
-	vim.cmd([[colorscheme tokyonight-moon]])
-	end
-	},
-	{"NMAC427/guess-indent.nvim", config = true },
--- Set Plugin/ as plugins directory
-  { import = "plugins"},
+    {"folke/tokyonight.nvim",
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme("tokyonight")
+    end
+    },
+    { import = "plugins"},
   },
 checker = {
     enable = true,

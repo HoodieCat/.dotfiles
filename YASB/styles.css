@@ -37,7 +37,7 @@ QToolTip {
     border-radius: 6px;
 }
 * {
-    font-size: 12px;
+    font-size: 15px;
     color: var(--subtext0);
     font-weight: 600;
     font-family: "JetBrainsMono NFP";
@@ -143,6 +143,10 @@ QToolTip {
 .volume-widget .icon {
     color: var(--blue);
     margin: 1px 2px 0 0;
+    font-size: 15px;
+}
+.volume-widget .label{
+    font-size: 15px;
 }
 .volume-widget {
     padding: 0 6px;
@@ -245,7 +249,7 @@ QToolTip {
     margin: 0;
 }
 .glazewm-workspaces .ws-btn {
-    font-size: 14px;
+    font-size: 15px;
     background-color: transparent;
     border: none;
     padding: 5px 2px 4px 2px;
@@ -276,31 +280,14 @@ QToolTip {
 .glazewm-workspaces .ws-btn.empty:hover {
     background-color: #727272;
 }
-.glazewm-tiling-direction {
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
-}
-
-.glazewm-tiling-direction .btn {
-    font-size: 18px;
-    width: 14px;
-    padding: 0 4px 0 4px;
-    color: #CDD6F4;
-    border: none;
-}
-
-.glazewm-tiling-direction .btn:hover {
-    background-color: #727272;
-}
-.cava-widget {
-    padding: 0;
-    margin: 0;
-}
-.cava-widget .widget-container {}
 
 .language-widget .icon {
-    color: var(--mauve);
+    color: var(--pink);
+    font-size: 15px;
+}
+.language-widget .label {
+    color: var(--pink);
+    font-size: 15px;
 }
 .language-menu {
     background-color: var(--crust);
@@ -429,4 +416,48 @@ QToolTip {
 }
 .systray .unpinned-visibility-btn:hover {
     border-radius: 4px;
+}
+.battery-widget {
+    padding: 0 6px;
+}
+.battery-widget .label {
+    font-size: 15px;
+    color: #e0e0e0;
+}
+.battery-widget .icon {
+    font-size: 14px;
+    margin-right: 0px;
+}
+/* Critical - red */
+.battery-widget .icon.status-critical {
+    color: #ff4444;
+}
+.battery-widget .label.status-critical {
+    color: #ff6b6b;
+}
+/* Low - orange */
+.battery-widget .icon.status-low {
+    color: #ff9800;
+}
+.battery-widget .label.status-low {
+    color: #ffb74d;
+}
+/* Medium - yellow */
+.battery-widget .icon.status-medium {
+    color: #ffc107;
+}
+/* High - light green */
+.battery-widget .icon.status-high {
+    color: #8bc34a;
+}
+/* Full - green */
+.battery-widget .icon.status-full {
+    color: #4caf50;
+}
+/* Charging - cyan */
+.battery-widget .icon.status-charging {
+    color: #00bcd4;
+}
+.battery-widget .label.status-charging {
+    color: #4dd0e1;
 }

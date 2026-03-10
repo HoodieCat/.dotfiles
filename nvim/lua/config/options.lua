@@ -1,9 +1,10 @@
-local opt = setmetatable({},{ __newindex = function(self,k,v) vim.o[k] = v end})
+local opt = vim.o
+opt.autowrite = true
 opt.number = true
 opt.relativenumber = true
 opt.showmode = false
 opt.clipboard = 'unnamedplus'
-opt.wrap = true
+opt.wrap = false
 opt.smartindent = true
 opt.breakindent = true
 opt.undofile = true
@@ -20,14 +21,8 @@ opt.scrolloff = 10
 opt.confirm = true
 opt.numberwidth = 2
 opt.wildignorecase = true
-opt.foldmethod = 'expr'
-opt.foldexpr = 'nvim_treesitter#foldexpr()'
-opt.foldenable = false
-opt.foldlevel= 99
-opt.foldlevelstart = 99
-
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
--- set '-' as part of word on searching
 vim.opt.iskeyword:append "-"
 vim.g.mapleader = ' '
+opt.shiftwidth = 2

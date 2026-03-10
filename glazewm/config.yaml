@@ -62,11 +62,11 @@ window_behavior:
 
 workspaces:
   - name: '1'
-    display_name: " Home"
+    display_name: "Home"
     keep_alive: true
 
   - name: '2'
-    display_name: " Term"
+    display_name: "term"
 
   - name: '3'
     display_name: "🏄Surf"
@@ -75,15 +75,16 @@ workspaces:
     display_name: "📂Exp"
 
   - name: '5'
-    display_name: "📝Edit"
+    display_name: "Edit"
 
   - name: '6'
-    display_name: "📺Time"
+    display_name: " Time"
 
   - name: '7'
-    display_name: "🎮game"
+    display_name: "game"
+
   - name: '8'
-  - name: '9'
+    display_name: "Focus_Now!"
 
 window_rules:
   - commands: ['ignore']
@@ -106,14 +107,14 @@ window_rules:
       - window_process: { equals: 'everything'}
       - window_process: { equals: 'Clash Party'}
       - window_process: { equals: 'winspy'}
-      - window_process: { equals: 'Firestone'}
       - window_process: { equals: 'zeal'}
       - window_process: { equals: 'Weixin'}
 
   - commands: ['move --workspace 1', 'focus --workspace 1']
     match:
-      - window_process: { equals: 'quark'}
       - window_process: { equals: 'Telegram'}
+      - window_process: { equals: 'calibre'}
+      - window_process: { equals: 'quark'}
 
   - commands: ['move --workspace 2', 'focus --workspace 2']
     match:
@@ -137,14 +138,22 @@ window_rules:
   - commands: ['move --workspace 6', 'focus --workspace 6']
     match:
       - window_process: { equals: 'Spotify'}
-      - window_process: { equals: 'mpv' }
-      - window_process: { equals: 'calibre'}
       - window_process: { equals: 'okular'}
 
   - commands: ['move --workspace 7']
     match:
       - window_process: { equals: 'Hearthstone'}
       - window_process: { equals: 'Battle'}
+
+  - commands: [ 'move --workspace 7', 'toggle-floating --centered' ]
+    match:
+      - window_process: { equals: 'Overwolf' }
+
+  - commands: ['move --workspace 8', 'toggle-fullscreen']
+    match:
+      - window_process: { equals: 'ebook-viewer'}
+      - window_process: { equals: 'mpv' }
+
 
 binding_modes:
   - name: 'resize'
