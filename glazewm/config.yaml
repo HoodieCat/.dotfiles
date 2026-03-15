@@ -62,29 +62,32 @@ window_behavior:
 
 workspaces:
   - name: '1'
-    display_name: "Home"
+    display_name: "[Home]"
     keep_alive: true
 
   - name: '2'
-    display_name: "term"
+    display_name: "[Term]"
 
   - name: '3'
-    display_name: "🏄Surf"
+    display_name: "[Surf]"
 
   - name: '4'
-    display_name: "📂Exp"
+    display_name: "[Folder]"
 
   - name: '5'
-    display_name: "Edit"
+    display_name: "[Edit]"
 
   - name: '6'
-    display_name: " Time"
+    display_name: "[Time]"
 
   - name: '7'
-    display_name: "game"
+    display_name: "[Game]"
 
   - name: '8'
-    display_name: "Focus_Now!"
+    display_name: "[AI]"
+
+  - name: '9'
+    display_name: "[Focus]"
 
 window_rules:
   - commands: ['ignore']
@@ -103,7 +106,7 @@ window_rules:
 
   - commands: ['toggle-floating --centered']
     match:
-      - window_process: { equals: 'eudic'}
+      - window_process: { equals: 'GoldenDict'}
       - window_process: { equals: 'everything'}
       - window_process: { equals: 'Clash Party'}
       - window_process: { equals: 'winspy'}
@@ -119,6 +122,7 @@ window_rules:
   - commands: ['move --workspace 2', 'focus --workspace 2']
     match:
       - window_process: { equals: 'WindowsTerminal'}
+      - window_process: { equals: 'wezterm-gui'}
 
   - commands: ['move --workspace 3', 'focus --workspace 3']
     match:
@@ -149,11 +153,10 @@ window_rules:
     match:
       - window_process: { equals: 'Overwolf' }
 
-  - commands: ['move --workspace 8', 'toggle-fullscreen']
+  - commands: ['move --workspace 6']
     match:
       - window_process: { equals: 'ebook-viewer'}
       - window_process: { equals: 'mpv' }
-
 
 binding_modes:
   - name: 'resize'
@@ -249,7 +252,7 @@ keybindings:
   - commands: ['focus --workspace 9']
     bindings: ['alt+9']
 
-  - commands: ['shell-exec wt']
+  - commands: ['shell-exec wezterm-gui.exe']
     bindings: ['alt+enter']
   # Move the focused window's parent workspace to a monitor in a given
   # direction.

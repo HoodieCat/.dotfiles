@@ -15,6 +15,8 @@ end, opts)
 map('n', '<leader>df', function()
   vim.diagnostic.open_float()
 end, { desc = '[d]iagnostic [f]loating' })
+--terminal -> normal mode
+vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 --buffer
 map('n', '<S-l>', ':bnext<CR>', opts)
 map('n', '<S-h>', ':bprevious<CR>', opts)
@@ -31,21 +33,26 @@ map('n', '<C-j>', function()
 end, { desc = 'Decrease height' })
 map('n', '<c-l>', '<c-w><c->>', { desc = 'Increase width' })
 map('n', '<c-h>', '<c-w><c-<>', { desc = 'Decrease width' })
+--Tab
 map('n', '[t', ':tabprevious<CR>', { desc = '[T]ab previous' })
 map('n', ']t', ':tabNext<CR>', { desc = '[T]ab previous' })
 map('n', '<leader>tn', ':tabnew<CR>', { desc = '[T]ab New' })
 map('n', '<leader>tt', ':tabclose<CR>', { desc = '[T]ab [t]oggle' })
+--utilities
 map('n', '<leader>l', '<cmd>Lazy<CR>', { desc = '[L]azy.nvim' })
 map('n', '<leader>m', '<cmd>Mason<CR>', { desc = '[M]ason Menu' })
-map('n', '<leader>sl', function()
-  local ok, sessions = pcall(require, 'mini.sessions')
-  if ok then
-    sessions.read(sessions.get_latest())
-  end
-end)
 map('n', '<leader>cc', function()
   local file_name = vim.fn.expand('%:p')
   if file_name then
     vim.fn.setreg('+', file_name)
   end
 end)
+local ok, flash = pcall(require, 'flash')
+if ok then
+  vim.keymap.set('o', 'r', function()
+    flash.remote()
+  end, { desc = '[R]emote select' })
+  vim.keymap.set({ 'o', 'n', 'x' }, 'S', function()
+    flash.treesitter()
+  end, { desc = 'Treesitter FLash' })
+end

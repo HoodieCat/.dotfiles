@@ -37,7 +37,7 @@ function gst {
 
 # fzf wrapper
 Set-PSReadlineKeyHandler -Key 'Ctrl+t' -ScriptBlock {
-    $command = 'fd -tf --hidden --follow  --exclude node_modules --exclude .vscode --no-ignore  2>$null | fzf --walker file,dir,follow,hidden --border --scheme path --preview "bat -n --color=always {}" --bind "ctrl-h:backward-delete-char"'
+    $command = 'fd -tf --hidden --follow  --exclude node_modules --exclude .vscode --exclude undo --exclude swap 2>$null | fzf --border --scheme path --preview "bat -n --color=always {}" --bind "ctrl-h:backward-delete-char"'
     try{
         $result = Invoke-Expression $command
         if($result){
@@ -49,7 +49,7 @@ Set-PSReadlineKeyHandler -Key 'Ctrl+t' -ScriptBlock {
 }
 
 Set-PSReadLineKeyHandler -Key 'Alt+c' -ScriptBlock {
-    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore 2>$null | fzf --scheme path --border --preview "tre {}" --bind "ctrl-h:backward-delete-char" '
+    $command = 'fd -td -tl --hidden --follow --exclude .git --exclude node_modules --no-ignore --exclude undo --exclude swap 2>$null | fzf --scheme path --border --preview "tre {}" --bind "ctrl-h:backward-delete-char" '
     try{
         $result = Invoke-Expression $command
         if ($result){
