@@ -1,7 +1,10 @@
-local M = {}
-
-M= {
-  "nvim-lualine/lualine.nvim",
-  dependencies = { "nvim-tree/nvim-web-devicons"}
+return {
+  'nvim-lualine/lualine.nvim',
+  event = 'VeryLazy',
+  dependencies = { 'nvim-tree/nvim-web-devicons' },
+  config = function()
+    require('lualine').setup({
+      theme = 'gruvbox_dark',
+    })
+  end,
 }
-return M

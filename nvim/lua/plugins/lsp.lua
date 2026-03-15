@@ -1,12 +1,10 @@
 local M = {
   'neovim/nvim-lspconfig',
   dependencies = {
-    'mason-org/mason-lspconfig.nvim',
-    'saghen/blink.cmp',
     'mason-org/mason.nvim',
-    'j-hui/fidget.nvim',
+    { 'j-hui/fidget.nvim', opts = {} },
   },
-  config = function(_, opts)
+  config = function()
     vim.api.nvim_create_autocmd('LspAttach', {
       group = vim.api.nvim_create_augroup('Lsp-Attach', { clear = true }),
       callback = function(arg)
@@ -95,8 +93,7 @@ local M = {
         'https://gitee.com/mason-org/mason-registry.git',
       },
     })
-    require('mason-lspconfig').setup({})
-    require('blink.cmp').setup()
+    -- require('mason-lspconfig').setup({})
   end,
 }
 return M

@@ -11,7 +11,7 @@ opt.undofile = true
 opt.ignorecase = true
 opt.smartcase = true
 opt.updatetime = 1000
-opt.timeoutlen = 300
+opt.timeoutlen = 800
 opt.splitright = true
 opt.splitbelow = true
 opt.list = true
@@ -23,6 +23,6 @@ opt.numberwidth = 2
 opt.wildignorecase = true
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
-vim.opt.iskeyword:append "-"
+vim.opt.iskeyword:append('-')
 vim.g.mapleader = ' '
 opt.shiftwidth = 2

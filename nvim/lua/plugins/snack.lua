@@ -9,6 +9,11 @@ M = {
     indent = {},
     -- dashboard = {},
     input = {},
+    win = {
+      keys = {
+        ['<C-M-h>'] = { 'toggle_hidden', mode = { 'i', 'n' } },
+      },
+    },
   },
   config = function(_, opts)
     -- set snacks as default explorer,already disable netrw
@@ -105,20 +110,12 @@ M = {
       desc = '[S]earch [F]iles Root dir',
     },
     {
-      '<leader>sp',
-      function()
-        Snacks.picker.projects()
-      end,
-      desc = '[P]rojects',
-    },
-    {
       '<leader>gl',
       function()
         Snacks.picker.git_log()
       end,
       desc = '[G]it log',
     },
-    --Grep
     {
       '<leader>sb',
       function()
@@ -133,14 +130,6 @@ M = {
       end,
       desc = '[S]earch Grep [O]pen buffers',
     },
-    {
-      '<leader>sw',
-      function()
-        Snacks.picker.grep_word()
-      end,
-      desc = '[S]earch Visual selection Word',
-      mode = { 'n', 'x' },
-    },
     --command
     {
       '<leader>sc',
@@ -151,7 +140,7 @@ M = {
     },
     --Resume
     {
-      '<leader>sr',
+      '<leader>r',
       function()
         Snacks.picker.resume()
       end,

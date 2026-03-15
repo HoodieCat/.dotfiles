@@ -19,13 +19,14 @@ require('lazy').setup({
     {
       'folke/tokyonight.nvim',
       priority = 1000,
+      lazy = false,
       config = function()
         vim.cmd.colorscheme('tokyonight')
       end,
     },
     {
       'iamcco/markdown-preview.nvim',
-      cmd = { 'MarkdownPreviewToggle' },
+      -- cmd = { 'MarkdownPreviewToggle' },
       build = { 'cd app && yarn install' },
       init = function()
         vim.g.mkdp_filetypes = { 'markdown' }
@@ -35,6 +36,7 @@ require('lazy').setup({
     },
     { import = 'plugins' },
   },
+  lazy = true,
   checker = {
     enabled = true,
     notify = false,
