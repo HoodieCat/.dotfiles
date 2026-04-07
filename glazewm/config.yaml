@@ -103,10 +103,13 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_class: { regex: "#32770" }
       - window_process: { equals: 'uTools'}
+      - window_process: { equals: 'Battle'}
+      - window_process: { equals: 'old-Overwolf' }
+      - window_process: { equals: 'Overwolf' }
 
   - commands: ['toggle-floating --centered']
     match:
-      - window_process: { equals: 'GoldenDict'}
+      - window_process: { equals: 'goldendict'}
       - window_process: { equals: 'everything'}
       - window_process: { equals: 'Clash Party'}
       - window_process: { equals: 'winspy'}
@@ -147,16 +150,18 @@ window_rules:
   - commands: ['move --workspace 7']
     match:
       - window_process: { equals: 'Hearthstone'}
-      - window_process: { equals: 'Battle'}
 
   - commands: [ 'move --workspace 7', 'toggle-floating --centered' ]
     match:
-      - window_process: { equals: 'Overwolf' }
 
   - commands: ['move --workspace 6']
     match:
       - window_process: { equals: 'ebook-viewer'}
       - window_process: { equals: 'mpv' }
+  - commands: ['move --workspace 8']
+    match:
+      - window_process: { equals: 'ChatGPT' }
+      - window_title: { equals: 'Google AI Studio'}
 
 binding_modes:
   - name: 'resize'

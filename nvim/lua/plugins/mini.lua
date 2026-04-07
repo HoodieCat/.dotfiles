@@ -17,7 +17,7 @@ M = {
         sessions.read(sessions.get_latest())
       end, { desc = '[S]ession [L]atest' })
       vim.keymap.set('n', '<leader>sw', function()
-        sessions.write(pwd)
+        sessions.write(cwd_session_name(), { force = true })
       end, {})
     end
 
@@ -33,7 +33,7 @@ M = {
             if name == cwd_session_name() then
               session.write(name, { force = true })
             else
-              session.write(cwd_session_name())
+              session.write(cwd_session_name(), { force = true })
             end
           end
         end,

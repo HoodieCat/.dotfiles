@@ -26,3 +26,4 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.iskeyword:append('-')
 vim.g.mapleader = ' '
 opt.shiftwidth = 2
+opt.tabstop = 2

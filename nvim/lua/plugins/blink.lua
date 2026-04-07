@@ -1,6 +1,5 @@
 local M = {
   'saghen/blink.cmp',
-  version = '1.*',
   dependencies = { 'rafamadriz/friendly-snippets', 'saghen/blink.cmp' },
   version = '1.*',
   opts = {
@@ -12,7 +11,7 @@ local M = {
         lazydev = {
           name = 'LazyDev',
           module = 'lazydev.integrations.blink',
-          scoore_offset = 100,
+          score_offset = 100,
         },
       },
     },
