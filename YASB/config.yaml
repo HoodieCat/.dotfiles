@@ -43,7 +43,7 @@ bars:
         "Razer_battery",
         "volume",
         "battery",
-        "bluetooth",
+        # "bluetooth",
         ]
 widgets:
   active_window:

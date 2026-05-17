@@ -119,7 +119,7 @@
           "options": {
             "fetch_version": false
           },
-          "template": "\ue626 ",
+          "template": "\ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
           "foreground": "p:blue",
           "background": "transparent",
           "type": "go",
@@ -144,21 +144,14 @@
           "type": "shell",
           "style": "plain"
         },
-        {
-          "template": "at <p:blue><b>{{ .CurrentDate | date \"15:04:05\" }}</b></>",
-          "foreground": "p:white",
-          "background": "transparent",
-          "type": "time",
-          "style": "plain"
-        },
-	{
-	  "type": "lua",
-	  "style": "powerline",
-	  "powerline_symbol": "",
-	  "foreground": "white",
-	  "background": "blue",
-	  "template": "  {{ .Full }} "
-	}
+				{
+					"type": "lua",
+					"style": "powerline",
+					"powerline_symbol": "",
+					"foreground": "white",
+					"background": "blue",
+					"template": "  {{ .Full }} "
+				}
       ]
     }
   ],

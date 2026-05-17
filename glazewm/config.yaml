@@ -26,11 +26,11 @@ window_effects:
       enabled: true
       color: '#ff4500'
     hide_title_bar:
-      enabled: true
+      enabled: false
 
     corner_style:
       enabled: false
-      style: 'rounded'
+      style: 'square'
 
     transparency:
       enabled: false
@@ -41,7 +41,7 @@ window_effects:
       enabled: true
       color: '#0000ff'
     hide_title_bar:
-      enabled: true
+      enabled: false
     corner_style:
       enabled: false
       style: 'rounded'
@@ -103,9 +103,6 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_class: { regex: "#32770" }
       - window_process: { equals: 'uTools'}
-      - window_process: { equals: 'Battle'}
-      - window_process: { equals: 'old-Overwolf' }
-      - window_process: { equals: 'Overwolf' }
 
   - commands: ['toggle-floating --centered']
     match:
@@ -115,6 +112,9 @@ window_rules:
       - window_process: { equals: 'winspy'}
       - window_process: { equals: 'zeal'}
       - window_process: { equals: 'Weixin'}
+      - window_process: { equals: 'Battle'}
+      - window_process: { equals: 'old-Overwolf' }
+      - window_process: { equals: 'Overwolf' }
 
   - commands: ['move --workspace 1', 'focus --workspace 1']
     match:
@@ -158,6 +158,8 @@ window_rules:
     match:
       - window_process: { equals: 'ebook-viewer'}
       - window_process: { equals: 'mpv' }
+      - window_process: { equals: 'calibre-parallel'}
+
   - commands: ['move --workspace 8']
     match:
       - window_process: { equals: 'ChatGPT' }
