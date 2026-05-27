@@ -15,7 +15,8 @@ M = {
       },
     },
   },
-  config = function(_, opts)
+  config = function(plugin, opts)
+    print(plugin.name)
     -- set snacks as default explorer,already disable netrw
     require('snacks').setup(opts)
   end,
@@ -73,7 +74,7 @@ M = {
     {
       '<leader>sf',
       function()
-        local opts = {}
+        local opts = { hidden = true, ignored = true }
         Snacks.picker.files(opts)
       end,
       desc = '[S]earch [f]ile cwd',

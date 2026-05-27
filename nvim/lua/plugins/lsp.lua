@@ -59,7 +59,7 @@ local M = {
         end
         if client and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_inlayHint, arg.buf) then
           map('<leader>ih', function()
-            vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufner = arg.buf }))
+            vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufnr = arg.buf }))
           end, '[I]nlay [H]ints')
         end
         if client and client_supports_method(client, vim.lsp.protocol.textDocument_switchHeaderSource, arg.buf) then
@@ -80,20 +80,24 @@ local M = {
           },
         },
       },
-      ts_ls = {},
     }
     for server_name, server_config in pairs(servers) do
       server_config.capabilities =
         vim.tbl_deep_extend('force', lsp_capabilities, capabilities, server_config.capabilities or {})
-      -- require('lspconfig')[server_name].setup(server_config)
+      vim.lsp.config(server_name, server_config)
       vim.lsp.enable(server_name)
+    end
+    if vim.fn.has('win32') then
+      vim.lsp.config('powershell_es', {
+        bundle_path = vim.fn.stdpath('data') .. '/mason/packages/powershell-editor-services',
+      })
+      vim.lsp.enable('powershell_es')
     end
     require('mason').setup({
       registry = {
         'https://gitee.com/mason-org/mason-registry.git',
       },
     })
-    -- require('mason-lspconfig').setup({})
   end,
 }
 return M

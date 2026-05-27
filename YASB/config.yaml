@@ -38,7 +38,6 @@ bars:
         "clock"
       ]
       right: [
-        # "systray",
         "language",
         "Razer_battery",
         "volume",
